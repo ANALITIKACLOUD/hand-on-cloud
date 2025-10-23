@@ -19,7 +19,7 @@ Construir un pipeline de datos que procese transacciones bancarias para identifi
 ## 🏗️ ARQUITECTURA
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Landing S3<br/>CSV crudos] -->|S3 Event| B[Lambda<br/>Orquestador]
     B -->|StartJobRun| C[Glue Job 1<br/>Landing to RDV]
     C -->|Parquet limpio| D[RDV S3<br/>Raw Data Value]
