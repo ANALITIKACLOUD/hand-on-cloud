@@ -96,20 +96,20 @@ flowchart LR
 
 | # | Nombre | Propósito |
 |---|--------|-----------|
-| 1 | `bbva-landing-[NOMBRE]` | Archivos CSV crudos |
-| 2 | `bbva-lakehouse-rdv-[NOMBRE]` | Parquet limpio |
-| 3 | `bbva-lakehouse-udv-[NOMBRE]` | Parquet integrado |
-| 4 | `bbva-lakehouse-ddv-[NOMBRE]` | Parquet dimensional |
+| 1 | `bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]` | Archivos CSV crudos |
+| 2 | `bbva-lakehouse-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]` | Parquet limpio |
+| 3 | `bbva-lakehouse-udv-[PRIMERNOMBRE-APELLIDOPATERNO]` | Parquet integrado |
+| 4 | `bbva-lakehouse-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]` | Parquet dimensional |
 
 **Configuración (para los 4):**
 ```
-Region: us-east-1
+Region: us-east-2 (Ohio)
 Block public access: ENABLED
 Versioning: Disabled
 Encryption: SSE-S3
 ```
 
-> ⚠️ Reemplaza `[NOMBRE]` con tus iniciales (ej: `bbva-landing-jperez`)
+> ⚠️ Reemplaza `[PRIMERNOMBRE-APELLIDOPATERNO]` con tus iniciales (ej: `bbva-landing-juan-perez`)
 
 ---
 
@@ -124,7 +124,7 @@ Descargar:
 
 ### 2.2 Subir a S3
 ```
-1. Abrir bucket: bbva-landing-[NOMBRE]
+1. Abrir bucket: bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]
 2. Click "Upload"
 3. Arrastrar los 2 CSVs
 4. Click "Upload"
@@ -196,7 +196,7 @@ Role name: GlueServiceRole-BBVA
 ## CHECKPOINT LAB 1
 
 - [ ] 4 buckets S3 creados
-- [ ] 2 CSVs en `bbva-landing-[NOMBRE]`
+- [ ] 2 CSVs en `bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]`
 - [ ] IAM Role `GlueServiceRole-BBVA` creado
 
 ---
@@ -240,9 +240,9 @@ Number of workers: 2
 
 **Job parameters (agregar):**
 ```
---SOURCE_BUCKET = bbva-landing-[NOMBRE]
---TARGET_BUCKET = bbva-lakehouse-rdv-[NOMBRE]
---TempDir = s3://bbva-lakehouse-rdv-[NOMBRE]/temp/
+--SOURCE_BUCKET = bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]
+--TARGET_BUCKET = bbva-lakehouse-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
+--TempDir = s3://bbva-lakehouse-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]/temp/
 ```
 
 ---
@@ -292,7 +292,7 @@ Ver: Logs tab
 
 ### Abrir S3
 ```
-Bucket: bbva-lakehouse-rdv-[NOMBRE]
+Bucket: bbva-lakehouse-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
 ```
 
 ### Estructura esperada
@@ -387,9 +387,9 @@ Glue version: 4.0
 
 ### Parameters
 ```
---SOURCE_BUCKET = bbva-lakehouse-rdv-[NOMBRE]
---TARGET_BUCKET = bbva-lakehouse-udv-[NOMBRE]
---TempDir = s3://bbva-lakehouse-udv-[NOMBRE]/temp/
+--SOURCE_BUCKET = bbva-lakehouse-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
+--TARGET_BUCKET = bbva-lakehouse-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
+--TempDir = s3://bbva-lakehouse-udv-[PRIMERNOMBRE-APELLIDOPATERNO]/temp/
 ```
 
 ---
@@ -412,7 +412,7 @@ Run → Esperar Succeeded (3-4 min)
 
 ### S3 Output
 ```
-Bucket: bbva-lakehouse-udv-[NOMBRE]
+Bucket: bbva-lakehouse-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
 
 Estructura:
 udv/
@@ -504,8 +504,8 @@ flowchart TD
 Name: udv-to-ddv
 IAM Role: GlueServiceRole-BBVA
 Parameters:
-  --SOURCE_BUCKET = bbva-lakehouse-udv-[NOMBRE]
-  --TARGET_BUCKET = bbva-lakehouse-ddv-[NOMBRE]
+  --SOURCE_BUCKET = bbva-lakehouse-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
+  --TARGET_BUCKET = bbva-lakehouse-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]
 ```
 
 ---
@@ -628,7 +628,7 @@ AWS Glue → Crawlers → Create crawler
 **Data source:**
 ```
 Type: S3
-Path: s3://bbva-lakehouse-ddv-[NOMBRE]/
+Path: s3://bbva-lakehouse-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]/
 Subsequent crawler runs: Crawl all folders
 ```
 
@@ -732,7 +732,7 @@ AWS Console → Athena → Query editor
 ### Configurar Results Location
 ```
 Settings → Manage
-Query result location: s3://bbva-lakehouse-ddv-[NOMBRE]/athena-results/
+Query result location: s3://bbva-lakehouse-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]/athena-results/
 Save
 ```
 
@@ -1009,7 +1009,7 @@ Lambda → glue-pipeline-orchestrator → Add trigger
 ### Configuración
 ```
 Source: S3
-Bucket: bbva-landing-[NOMBRE]
+Bucket: bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]
 Event type: PUT
 Prefix: (vacío)
 Suffix: .csv
@@ -1027,7 +1027,7 @@ Create test event:
   "Records": [{
     "s3": {
       "bucket": {
-        "name": "bbva-landing-[NOMBRE]"
+        "name": "bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]"
       },
       "object": {
         "key": "clientes_transacciones.csv"
@@ -1060,7 +1060,7 @@ CloudWatch Logs → Log groups
 ### Subir CSV nuevo
 ```
 1. Modificar fecha en clientes_transacciones.csv
-2. Subir a s3://bbva-landing-[NOMBRE]/
+2. Subir a s3://bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]/
 3. Esperar 5-10 min
 4. Verificar DDV actualizado
 ```
