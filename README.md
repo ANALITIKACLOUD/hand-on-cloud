@@ -279,16 +279,9 @@ Bucket: bbva-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
 ### Estructura esperada
 ```
 rdv/
-├── clientes/
-│   └── year=2025/
-│       └── month=01/
-│           └── day=XX/
-│               └── *.parquet
-└── transacciones/
-    └── year=2024/
-        └── month=12/
-            └── day=XX/
-                └── *.parquet
+├── clientes_transacciones/
+│   └── fecha_rutina=2025-10-22/
+│       └── *.parquet
 ```
 
 ✅ **Verificar:** Carpetas particionadas con archivos .parquet
@@ -321,9 +314,9 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    A[Query: WHERE year=2024<br/>AND month=12] --> B{Particionado?}
+    A[Query: WHERE fecha_rutina='2024-12-15'] --> B{Particionado?}
     B -->|NO| C[Escanea TODO<br/>100 GB]
-    B -->|SÍ| D[Escanea SOLO<br/>year=2024/month=12<br/>8 GB]
+    B -->|SÍ| D[Escanea SOLO<br/>fecha_rutina=2024-12-15<br/>8 GB]
     
     C --> E[Costo: $5]
     D --> F[Costo: $0.40]
@@ -398,9 +391,8 @@ Bucket: bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
 Estructura:
 udv/
 └── clientes_360/
-    └── year=2025/
-        └── month=01/
-            └── *.parquet
+    └── fecha_rutina=2025-10-22/
+        └── *.parquet
 ```
 
 ### Verificar en logs
@@ -666,7 +658,7 @@ flowchart TD
     A[Data Catalog] --> B[Metadata]
     B --> C[Schema<br/>Columnas + Tipos]
     B --> D[Location<br/>S3 paths]
-    B --> E[Partitions<br/>year/month/day]
+    B --> E[Partitions<br/>fecha_rutina]
     B --> F[Stats<br/>Tamaño, registros]
     
     G[Athena] -->|Lee metadata| A
@@ -838,7 +830,7 @@ SELECT
     'Clientes Activos',
     COUNT(*)
 FROM bbva_analytics.ddv_fact_transacciones
-WHERE year = 2024 AND month = 12
+WHERE fecha_rutina = '2024-12-15'
 
 UNION ALL
 
@@ -861,7 +853,7 @@ SELECT
     'Monto Total Transaccionado (Dic 2024)',
     ROUND(SUM(monto), 2)
 FROM bbva_analytics.ddv_fact_transacciones
-WHERE year = 2024 AND month = 12;
+WHERE fecha_rutina = '2024-12-15';
 ```
 
 ---
@@ -887,7 +879,7 @@ flowchart TD
 1. Particionamiento (ahorro 80-90%)
 2. Parquet vs CSV (ahorro 80%)
 3. SELECT columnas específicas (no SELECT *)
-4. WHERE en particiones (year, month, day)
+4. WHERE en particiones (fecha_rutina)
 
 **Ejemplo real:**
 ```sql
@@ -897,7 +889,7 @@ SELECT * FROM tabla;
 -- ✅ BARATO: Escanea 10 GB
 SELECT id, nombre, monto
 FROM tabla
-WHERE year = 2024 AND month = 12;
+WHERE fecha_rutina = '2024-12-15';
 ```
 
 ---
