@@ -1,0 +1,1002 @@
+id_cliente,nombre_completo,fecha_nacimiento,genero,ciudad,segmento_cliente,fecha_alta_cliente
+C100001,JUAN PEREZ LOPEZ,1990-05-12,M,Lima,Premium,2020-01-15
+C100002,maria garcia rodriguez,1985-08-23,F,Arequipa,Estándar,2019-06-10
+C100003,Carlos  Mendoza  Silva,1978-11-30,M,Trujillo,VIP,2017-03-22
+C100004, Pedro Ramirez Diaz ,1995-02-14,M ,Lima,Joven,2021-07-08
+C100005,Ana JosÃ© Torres,1988-09-05,F,Cusco,Premium,2018-11-20
+C100006,test,1980-01-01,M,Lima,Estándar,2020-05-15
+C100007,Luis Alberto Castillo Vargas,1992-12-18,M,Chiclayo,Estándar,2019-09-30
+C100008,Carmen PeÃ±a Quispe,1987-04-25,F,Puno,Premium,2018-08-12
+C100009,asdasd,1900-01-01,X,Lima,N/A,2020-01-01
+C100010,Roberto Flores Huaman,1983-07-09,M,Arequipa,VIP,2016-12-05
+C100011,Maria Elena Rojas Sanchez,1991-03-17,F,Trujillo,Estándar,2020-02-28
+C100012,xxxxxx,,,lima,basico,
+C100013,Diego Alonso Paredes Cruz,1986-10-22,M,Lima,Premium,2019-04-18
+C100014,Claudia Milagros Vega Romero,1994-06-11,F,Cusco,Joven,2022-01-10
+C100015,Fernando123,1989-08-30, F,Arequipa,Estándar,2020-07-25
+C100016,Patricia Isabel Morales Gutierrez,1982-12-03,F,Chiclayo,VIP,2017-09-14
+C100017,Miguel Ã�ngel Chavez,1993-05-28,M,Puno,Estándar,2021-03-22
+C100018,zzz,2099-12-31,0,Liam,Gold,2030-01-01
+C100019,Rosa Maria Campos Torres,1984-11-07,F,Lima,Premium,2018-06-30
+C100020,Jorge Luis Diaz Fernandez,1990-02-19,M,Arequipa,Estándar,2019-10-12
+C100021,LUCIA MARTINEZ RAMOS,1988-07-14,F,Trujillo,Premium,2018-12-08
+C100022,Ricardo Enrique Lopez Silva,1981-09-26,M,Lima,VIP,2016-11-22
+C100023,Monica,1995-04-08,NULL,Cusco,N/A,NULL
+C100024,Arturo Daniel Herrera Paz,1987-01-15,M,Chiclayo,Estándar,2020-03-17
+C100025,Beatriz Alejandra Soto Medina,1992-08-21,F,Puno,Joven,2022-05-09
+C100026,test123,0000-00-00,1,aerquipa,medio,
+C100027,Cesar Augusto Valdez Rojas,1985-12-04,M,Lima,Premium,2019-02-14
+C100028,Diana Carolina Jimenez Torres,1991-03-29,F,Arequipa,Estándar,2020-08-19
+C100029,  Enrique Raul Navarro Cruz  ,1983-10-11,M,Trujillo,VIP,2017-07-25
+C100030,Fabiola Isabel Cordova Ramos,1989-05-23,F,Cusco,Premium,2018-09-11
+C100031,Gabriel Fernando Palacios Diaz,1994-11-16,M,Lima,Joven,2021-12-03
+C100032,asdf,15/03/1990,M ,lima123,normal,2020-01-01
+C100033,Hector Manuel Ortega Flores,1986-07-08,M,Chiclayo,Estándar,2019-11-28
+C100034,Irene Guadalupe Salazar Vega,1990-02-20,F,Puno,Premium,2018-10-15
+C100035,NULL,NULL,N/A,Lima,NULL,NULL
+C100036,Juan Carlos Benavides Morales,1988-09-12,M,Arequipa,VIP,2017-04-30
+C100037,Karen Melissa Quintana Herrera,1993-06-05,F,Trujillo,Estándar,2020-06-22
+C100038,luis garcia,1985-12-18,,Cusco,Estándar,2019-08-14
+C100039,Laura Vanessa Carrillo Campos,1991-08-27,F,Lima,Premium,2019-01-09
+C100040,Mario Alberto Espinoza Ruiz,1984-03-14,M,Chiclayo,Estándar,2020-04-17
+C100041,Natalia Sofia Aguilar Torres,1992-10-31,F,Puno,Joven,2022-02-28
+C100042,Oscar Javier Fernandez Silva,1987-05-19,M,Arequipa,Premium,2018-07-23
+C100043,Paola Andrea Gutierrez Lopez,1995-01-25,F,Lima,Estándar,2021-09-05
+C100044,Pedro2023,1980-07-30,M,Trjuillo,alto,2020-01-01
+C100045,Raquel Monica Sandoval Diaz,1983-11-22,F,Cusco,VIP,2017-10-18
+C100046,Sergio Alonso Romero Chavez,1990-06-14,M,Lima,Premium,2019-03-27
+C100047,TERESA MARTINEZ ROJAS,1986-02-09,F,Chiclayo,Estándar,2020-07-11
+C100048,Ulises Fernando Guerrero Paz,1992-09-01,M,Puno,Estándar,2021-01-19
+C100049,Veronica Isabel Castro Mendoza,1988-12-26,F,Arequipa,Premium,2018-11-08
+C100050,test,1900-01-01,X,Lima,N/A,
+C100051,Walter David Herrera Silva,1985-04-18,M,Trujillo,VIP,2017-06-15
+C100052,Ximena Carolina Vargas Torres,1991-08-11,F,Cusco,Estándar,2020-02-23
+C100053,Yolanda Maria Reyes Flores,1984-11-03,F,Lima,Premium,2019-05-30
+C100054,Zandy Alberto Paredes Diaz,1993-07-28,M,Chiclayo,Joven,2022-03-14
+C100055,Andrea Beatriz Solis Ramos,1987-01-20,F,Puno,Estándar,2020-09-08
+C100056,xxxxxx,,,lima,basico,2020-01-01
+C100057,Bruno Fernando Delgado Cruz,1990-10-15,M,Arequipa,Premium,2019-07-19
+C100058,Camila Sophia Vega Morales,1995-03-09,F,Lima,Joven,2021-11-25
+C100059,Daniel Andres Montalvo Herrera,1982-06-22,M,Trujillo,VIP,2016-08-12
+C100060,Elena Rosa Caceres Torres,1989-12-07,F,Cusco,Estándar,2020-10-04
+C100061,Felipe Augusto Mendoza Silva,1986-05-30,M,Lima,Premium,2018-12-21
+C100062,asdasd,2099-12-31,0,Liam,Gold,2030-01-01
+C100063,Gloria Mercedes Quispe Ramos,1992-02-14,F,Chiclayo,Estándar,2019-04-18
+C100064,Hugo Enrique Diaz Fernandez,1984-09-26,M,Puno,VIP,2017-11-30
+C100065, Isabel  Cristina   Lopez ,1991-11-19,F ,Arequipa,Premium,2019-08-22
+C100066,Julio Cesar Rojas Campos,1988-04-11,M,Lima,Estándar,2020-05-17
+C100067,Karla Vanessa Torres Diaz,1993-08-05,F,Trujillo,Joven,2022-06-09
+C100068,Maria2023,1985-01-28,,Cusco,medio,
+C100069,Leonardo Fabian Castillo Vargas,1990-07-21,M,Lima,Premium,2019-09-13
+C100070,Monica Patricia Flores Huaman,1987-12-14,F,Chiclayo,Estándar,2020-11-26
+C100071,Nicolas Alejandro Paredes Cruz,1994-06-08,M,Puno,Estándar,2021-02-18
+C100072,Olivia Daniela Vega Romero,1986-03-01,F,Arequipa,Premium,2018-10-29
+C100073,Pablo Andres Morales Gutierrez,1992-10-24,M,Lima,VIP,2017-12-14
+C100074,NULL,NULL,N/A,Lima,NULL,NULL
+C100075,Regina Sofia Chavez Silva,1985-05-17,F,Trujillo,Estándar,2020-03-22
+C100076,Rodrigo Manuel Campos Torres,1991-11-09,M,Cusco,Premium,2019-06-08
+C100077,Silvia Elena Diaz Fernandez,1983-02-26,F,Lima,VIP,2017-08-19
+C100078,Tomas Alberto Martinez Ramos,1989-08-19,M,Chiclayo,Estándar,2020-01-11
+C100079,Ursula Maria Lopez Silva,1995-01-12,F,Puno,Joven,2022-04-27
+C100080,test,0000-00-00,1,aerquipa,normal,
+C100081,Victor Hugo Herrera Paz,1987-07-05,M,Arequipa,Premium,2019-10-15
+C100082,Wendy Carolina Soto Medina,1992-12-28,F,Lima,Estándar,2020-12-03
+C100083,xavier garcia,1984-09-21,M,Trujillo,VIP,2017-05-28
+C100084,Yessica Isabel Jimenez Torres,1990-04-14,F,Cusco,Premium,2019-02-19
+C100085,Zacarias Fernando Navarro Cruz,1986-11-07,M,Lima,Estándar,2020-07-26
+C100086,  Ana Maria Cordova Ramos  ,1993-06-30,,Chiclayo,Estándar,2021-08-12
+C100087,Benjamin Enrique Palacios Diaz,1988-01-23,M,Puno,Premium,2018-09-24
+C100088,Cecilia Rosa Ortega Flores,1991-08-16,F,Arequipa,Estándar,2020-10-18
+C100089,zzz,1900-01-01,X,Liam,N/A,
+C100090,Dante Augusto Salazar Vega,1985-12-09,M,Lima,VIP,2017-11-05
+C100091,Esmeralda Sofia Benavides Morales,1992-05-02,F,Trujillo,Premium,2019-03-14
+C100092,Fabricio Daniel Quintana Herrera,1984-10-25,M,Cusco,Estándar,2020-06-29
+C100093,Gabriela Melissa Carrillo Campos,1990-03-18,F,Lima,Premium,2019-01-21
+C100094,Humberto Luis Espinoza Ruiz,1987-08-11,M,Chiclayo,Estándar,2020-09-17
+C100095,Ingrid Carolina Aguilar Torres,1994-01-04,F,Puno,Joven,2022-07-08
+C100096,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100097,Javier Alonso Fernandez Silva,1986-06-27,M,Arequipa,VIP,2018-04-13
+C100098,Karina Vanessa Gutierrez Lopez,1992-11-20,F,Lima,Premium,2019-08-05
+C100099,Luis Fernando Sandoval Diaz,1983-04-13,M,Trujillo,Estándar,2020-11-22
+C100100,Maritza Elena Romero Chavez,1990-09-06,F,Cusco,Premium,2019-05-18
+C123456,Mario Alberto Espinoza Ruiz,1984-03-14,M,Chiclayo,Estándar,2020-04-17
+C100101,MARIA LOPEZ GARCIA,1988-02-28,F,Lima,VIP,2017-10-09
+C100102,Nelson David Guerrero Paz,1995-07-21,M,Puno,Joven,2021-12-16
+C100103,Ofelia Isabel Castro Mendoza,1987-12-14,F,Arequipa,Estándar,2020-08-28
+C100104,Pedro Antonio Herrera Silva,1991-05-07,M,Lima,Premium,2019-04-03
+C100105,test123,2099-12-31,0,Trjuillo,Gold,2030-01-01
+C100106,Roxana Maria Vargas Torres,1984-10-30,F,Chiclayo,VIP,2017-07-19
+C100107,Santiago Javier Reyes Flores,1990-03-23,M,Cusco,Estándar,2020-02-11
+C100108,Tatiana Sofia Paredes Diaz,1986-08-16,F,Lima,Premium,2018-11-27
+C100109,Ulises Manuel Solis Ramos,1993-01-09,M,Puno,Estándar,2021-03-15
+C100110,Valeria Carolina Delgado Cruz,1989-06-02,F,Arequipa,Premium,2019-09-21
+C100111,NULL,NULL,N/A,Lima,NULL,NULL
+C100112,Wilson Alberto Vega Morales,1985-11-25,M,Trujillo,VIP,2017-06-08
+C100113,Ximena Patricia Montalvo Herrera,1992-04-18,F,Cusco,Estándar,2020-01-24
+C100114,Yolanda Rosa Caceres Torres,1984-09-11,F,Lima,Premium,2019-07-30
+C100115,Zandy Fernando Mendoza Silva,1991-02-04,M,Chiclayo,Estándar,2020-10-15
+C100116,Andrea Beatriz Quispe Ramos,1987-07-28,F,Puno,Premium,2018-12-02
+C100117,xxxxxx,,,lima,basico,
+C100118,Bruno Enrique Diaz Fernandez,1994-12-21,M,Arequipa,Joven,2022-08-19
+C100119,Camila Isabel Lopez Silva,1986-05-14,F,Lima,VIP,2018-03-27
+C100120,Daniel Augusto Rojas Campos,1992-10-07,M,Trujillo,Premium,2019-06-13
+C100121,Elena Sophia Torres Diaz,1983-03-30,F,Cusco,Estándar,2020-09-25
+C100122,Felipe Andres Castillo Vargas,1990-08-23,M,Lima,Premium,2019-11-11
+C100123,asdasd,1900-01-01,X,Liam,N/A,
+C100124,Gloria Mercedes Flores Huaman,1988-01-16,F,Chiclayo,Estándar,2020-04-29
+C100125,Hugo Daniel Paredes Cruz,1995-06-09,M,Puno,Joven,2021-10-14
+C100126, Isabel  Cristina   Vega Romero ,1987-11-02,F ,Arequipa,Premium,2019-02-28
+C100127,Julio Cesar Morales Gutierrez,1991-04-25,M,Lima,VIP,2017-09-16
+C100128,Karla Vanessa Chavez Silva,1984-09-18,F,Trujillo,Estándar,2020-07-02
+C100129,Maria2023,1985-02-11,,Cusco,medio,
+C100130,Leonardo Fabian Campos Torres,1993-07-04,M,Lima,Premium,2019-12-19
+C100131,Monica Patricia Diaz Fernandez,1986-12-27,F,Chiclayo,Estándar,2020-11-05
+C100132,Nicolas Alejandro Martinez Ramos,1992-05-20,M,Puno,Estándar,2021-01-22
+C100133,Olivia Daniela Lopez Silva,1985-10-13,F,Arequipa,Premium,2018-08-08
+C100134,Pablo Andres Herrera Paz,1991-03-06,M,Lima,VIP,2017-12-25
+C100135,test,0000-00-00,1,aerquipa,normal,
+C100136,Regina Sofia Soto Medina,1988-07-29,F,Trujillo,Estándar,2020-05-11
+C100137,Rodrigo Manuel Jimenez Torres,1994-12-22,M,Cusco,Joven,2022-09-27
+C100138,Silvia Elena Navarro Cruz,1987-05-15,F,Lima,Premium,2019-03-03
+C100139,Tomas Alberto Cordova Ramos,1993-10-08,M,Chiclayo,Estándar,2020-12-18
+C100140,Ursula Maria Palacios Diaz,1986-03-01,F,Puno,Premium,2018-10-24
+C100141,NULL,NULL,N/A,Lima,NULL,NULL
+C100142,Victor Hugo Ortega Flores,1992-07-24,M,Arequipa,VIP,2019-04-09
+C100143,Wendy Carolina Salazar Vega,1985-12-17,F,Lima,Estándar,2020-01-26
+C100144,xavier garcia,1991-05-10,M,Trujillo,Premium,2019-08-12
+C100145,Yessica Isabel Benavides Morales,1984-10-03,F,Cusco,VIP,2017-11-28
+C100146,Zacarias Fernando Quintana Herrera,1990-02-26,M,Lima,Estándar,2020-06-14
+C100147,  Ana Maria Carrillo Campos  ,1987-07-19,,Chiclayo,Estándar,2021-07-30
+C100148,Benjamin Enrique Espinoza Ruiz,1994-12-12,M,Puno,Joven,2022-10-16
+C100149,Cecilia Rosa Aguilar Torres,1986-05-05,F,Arequipa,Premium,2018-12-01
+C100150,zzz,2099-12-31,0,Liam,Gold,2030-01-01
+C100151,Dante Augusto Fernandez Silva,1992-09-28,M,Lima,Premium,2019-07-17
+C100152,Esmeralda Sofia Gutierrez Lopez,1983-02-21,F,Trujillo,VIP,2017-10-03
+C100153,Fabricio Daniel Sandoval Diaz,1990-07-14,M,Cusco,Estándar,2020-09-19
+C100154,Gabriela Melissa Romero Chavez,1988-12-07,F,Lima,Premium,2019-05-05
+C100155,Humberto Luis Guerrero Paz,1995-04-30,M,Chiclayo,Joven,2021-11-21
+C100156,Ingrid Carolina Castro Mendoza,1987-09-23,F,Puno,Estándar,2020-08-07
+C100157,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100158,Javier Alonso Herrera Silva,1991-02-16,M,Arequipa,Premium,2019-06-23
+C100159,Karina Vanessa Vargas Torres,1984-07-09,F,Lima,VIP,2018-01-09
+C100160,Luis Fernando Reyes Flores,1993-12-02,M,Trujillo,Estándar,2020-10-25
+C100161,Maritza Elena Paredes Diaz,1986-04-25,F,Cusco,Premium,2019-02-11
+C100162,MARIA LOPEZ GARCIA,1992-09-18,F,Lima,Estándar,2020-07-27
+C100163,test123,1900-01-01,X,Trjuillo,N/A,
+C100164,Nelson David Solis Ramos,1985-02-11,M,Chiclayo,VIP,2017-08-13
+C100165,Ofelia Isabel Delgado Cruz,1991-07-04,F,Puno,Premium,2019-09-29
+C100166,Pedro Antonio Vega Morales,1988-11-27,M,Arequipa,Estándar,2020-11-15
+C100167,Roxana Maria Montalvo Herrera,1994-04-20,F,Lima,Joven,2022-01-31
+C100168,Santiago Javier Caceres Torres,1987-09-13,M,Trujillo,Premium,2019-04-17
+C100169,Tatiana Sofia Mendoza Silva,1993-02-06,F,Cusco,Estándar,2020-06-03
+C100170,NULL,NULL,N/A,Lima,NULL,NULL
+C100171,Ulises Manuel Quispe Ramos,1986-06-29,M,Chiclayo,VIP,2018-02-19
+C100172,Valeria Carolina Diaz Fernandez,1992-11-22,F,Puno,Premium,2019-08-05
+C100173,Wilson Alberto Lopez Silva,1985-04-15,M,Arequipa,Estándar,2020-10-21
+C100174,Ximena Patricia Rojas Campos,1991-09-08,F,Lima,Premium,2019-12-07
+C100175,Yolanda Rosa Torres Diaz,1984-01-31,F,Trujillo,VIP,2017-07-23
+C100176,Zandy Fernando Castillo Vargas,1990-06-24,M,Cusco,Estándar,2020-09-09
+C100177,xxxxxx,,,lima,basico,
+C100178,Andrea Beatriz Flores Huaman,1988-11-17,F,Lima,Premium,2019-05-25
+C100179,Bruno Enrique Paredes Cruz,1995-04-10,M,Chiclayo,Joven,2021-12-11
+C100180,Camila Isabel Vega Romero,1987-09-03,F,Puno,Estándar,2020-08-27
+C100181,Daniel Augusto Morales Gutierrez,1993-01-26,M,Arequipa,Premium,2019-11-13
+C100182,Elena Sophia Chavez Silva,1986-06-19,F,Lima,VIP,2018-03-29
+C100183,asdasd,2099-12-31,0,Liam,Gold,2030-01-01
+C100184,Felipe Andres Campos Torres,1992-11-12,M,Trujillo,Premium,2019-07-28
+C100185,Gloria Mercedes Diaz Fernandez,1985-04-05,F,Cusco,Estándar,2020-10-14
+C100186, Isabel  Cristina   Martinez Ramos ,1991-08-28,F ,Lima,Premium,2019-06-30
+C100187,Julio Cesar Lopez Silva,1984-01-21,M,Chiclayo,VIP,2017-09-16
+C100188,Karla Vanessa Herrera Paz,1990-06-14,F,Puno,Estándar,2020-12-02
+C100189,Maria2023,1985-11-07,,Arequipa,medio,
+C100190,Leonardo Fabian Soto Medina,1993-03-30,M,Lima,Premium,2019-10-18
+C100191,Monica Patricia Jimenez Torres,1987-08-23,F,Trujillo,Estándar,2020-11-24
+C100192,Nicolas Alejandro Navarro Cruz,1994-01-16,M,Cusco,Joven,2022-02-09
+C100193,Olivia Daniela Cordova Ramos,1986-06-09,F,Lima,Premium,2019-01-25
+C100194,Pablo Andres Palacios Diaz,1992-11-02,M,Chiclayo,Estándar,2020-07-12
+C100195,test,0000-00-00,1,aerquipa,normal,
+C100196,Regina Sofia Ortega Flores,1985-03-26,F,Puno,VIP,2017-12-08
+C100197,Rodrigo Manuel Salazar Vega,1991-08-19,M,Arequipa,Premium,2019-09-24
+C100198,Silvia Elena Benavides Morales,1984-01-12,F,Lima,Estándar,2020-06-10
+C100199,Tomas Alberto Quintana Herrera,1990-06-05,M,Trujillo,Premium,2019-12-26
+C100200,Ursula Maria Carrillo Campos,1988-10-28,F,Cusco,VIP,2018-08-12
+C100201,NULL,NULL,N/A,Lima,NULL,NULL
+C100202,Victor Hugo Espinoza Ruiz,1995-03-21,M,Chiclayo,Joven,2021-10-28
+C100203,Wendy Carolina Aguilar Torres,1987-08-14,F,Puno,Estándar,2020-09-13
+C100204,xavier garcia,1993-01-07,M,Arequipa,Premium,2019-07-29
+C100205,Yessica Isabel Fernandez Silva,1986-05-30,F,Lima,VIP,2018-04-15
+C100206,Zacarias Fernando Gutierrez Lopez,1992-10-23,M,Trujillo,Estándar,2020-11-01
+C100207,  Ana Maria Sandoval Diaz  ,1985-03-16,,Cusco,Estándar,2021-01-17
+C100208,Benjamin Enrique Romero Chavez,1991-08-09,M,Lima,Premium,2019-06-03
+C100209,Cecilia Rosa Guerrero Paz,1984-12-02,F,Chiclayo,VIP,2017-10-19
+C100210,zzz,1900-01-01,X,Liam,N/A,
+C100211,Dante Augusto Castro Mendoza,1990-04-25,M,Puno,Premium,2019-02-08
+C100212,Esmeralda Sofia Herrera Silva,1988-09-18,F,Arequipa,Estándar,2020-08-24
+C100213,Fabricio Daniel Vargas Torres,1995-02-11,M,Lima,Joven,2022-03-12
+C100214,Gabriela Melissa Reyes Flores,1987-07-04,F,Trujillo,Premium,2019-09-18
+C100215,Humberto Luis Paredes Diaz,1993-11-27,M,Cusco,Estándar,2020-12-04
+C100216,Ingrid Carolina Solis Ramos,1986-04-20,F,Lima,Premium,2019-03-20
+C100217,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100218,Javier Alonso Delgado Cruz,1992-09-13,M,Chiclayo,VIP,2018-07-06
+C100219,Karina Vanessa Vega Morales,1985-02-06,F,Puno,Estándar,2020-10-22
+C100220,Luis Fernando Montalvo Herrera,1991-06-29,M,Arequipa,Premium,2019-11-08
+C100221,Maritza Elena Caceres Torres,1984-11-22,F,Lima,VIP,2017-08-24
+C100222,MARIA LOPEZ GARCIA,1990-04-15,F,Trujillo,Estándar,2020-09-10
+C100223,test123,2099-12-31,0,Trjuillo,Gold,2030-01-01
+C100224,Nelson David Mendoza Silva,1988-09-08,M,Cusco,Premium,2019-05-26
+C100225,Ofelia Isabel Quispe Ramos,1995-01-31,F,Lima,Joven,2021-11-12
+C100226,Pedro Antonio Diaz Fernandez,1987-06-24,M,Chiclayo,Estándar,2020-07-28
+C100227,Roxana Maria Lopez Silva,1993-11-17,F,Puno,Premium,2019-10-14
+C100228,Santiago Javier Rojas Campos,1986-04-10,M,Arequipa,VIP,2018-02-26
+C100229,Tatiana Sofia Torres Diaz,1992-09-03,F,Lima,Premium,2019-07-12
+C100230,NULL,NULL,N/A,Lima,NULL,NULL
+C100231,Ulises Manuel Castillo Vargas,1985-01-26,M,Trujillo,Estándar,2020-11-28
+C100232,Valeria Carolina Flores Huaman,1991-06-19,F,Cusco,Premium,2019-09-04
+C100233,Wilson Alberto Paredes Cruz,1984-11-12,M,Lima,VIP,2017-07-20
+C100234,Ximena Patricia Vega Romero,1990-04-05,F,Chiclayo,Estándar,2020-10-06
+C100235,Yolanda Rosa Morales Gutierrez,1988-08-28,F,Puno,Premium,2019-06-22
+C100236,Zandy Fernando Chavez Silva,1995-01-21,M,Arequipa,Joven,2022-04-08
+C100237,xxxxxx,,,lima,basico,
+C100238,Andrea Beatriz Campos Torres,1987-06-14,F,Lima,Premium,2019-03-30
+C100239,Bruno Enrique Diaz Fernandez,1993-11-07,M,Trujillo,Estándar,2020-08-16
+C100240,Camila Isabel Martinez Ramos,1986-03-30,F,Cusco,VIP,2018-01-02
+C100241,Daniel Augusto Lopez Silva,1992-08-23,M,Lima,Premium,2019-10-18
+C100242,Elena Sophia Herrera Paz,1985-01-16,F,Chiclayo,Estándar,2020-12-04
+C100243,asdasd,1900-01-01,X,Liam,N/A,
+C100244,Felipe Andres Soto Medina,1991-06-09,M,Puno,Premium,2019-08-25
+C100245,Gloria Mercedes Jimenez Torres,1984-11-02,F,Arequipa,VIP,2017-09-11
+C100246, Isabel  Cristina   Navarro Cruz ,1990-03-25,F ,Lima,Estándar,2020-11-27
+C100247,Julio Cesar Cordova Ramos,1988-08-18,M,Trujillo,Premium,2019-07-13
+C100248,Karla Vanessa Palacios Diaz,1995-01-11,F,Cusco,Joven,2022-05-29
+C100249,Maria2023,1987-05-04,,Lima,medio,
+C100250,Leonardo Fabian Ortega Flores,1993-10-27,M,Chiclayo,Premium,2019-12-13
+C100251,Monica Patricia Salazar Vega,1986-03-20,F,Puno,Estándar,2020-09-29
+C100252,Nicolas Alejandro Benavides Morales,1992-08-13,M,Arequipa,Premium,2019-11-15
+C100253,Olivia Daniela Quintana Herrera,1985-01-06,F,Lima,VIP,2017-10-01
+C100254,Pablo Andres Carrillo Campos,1991-05-29,M,Trujillo,Estándar,2020-07-17
+C100255,test,0000-00-00,1,aerquipa,normal,
+C100256,Regina Sofia Espinoza Ruiz,1984-10-22,F,Cusco,Premium,2019-06-08
+C100257,Rodrigo Manuel Aguilar Torres,1990-03-15,M,Lima,VIP,2018-04-24
+C100258,Silvia Elena Fernandez Silva,1988-08-08,F,Chiclayo,Estándar,2020-10-10
+C100259,Tomas Alberto Gutierrez Lopez,1995-12-01,M,Puno,Joven,2021-12-26
+C100260,Ursula Maria Sandoval Diaz,1987-05-24,F,Arequipa,Premium,2019-09-12
+C100261,NULL,NULL,N/A,Lima,NULL,NULL
+C100262,Victor Hugo Romero Chavez,1993-10-17,M,Trujillo,Premium,2019-08-28
+C100263,Wendy Carolina Guerrero Paz,1986-03-10,F,Cusco,VIP,2018-02-14
+C100264,xavier garcia,1992-08-03,M,Lima,Estándar,2020-11-30
+C100265,Yessica Isabel Castro Mendoza,1985-12-26,F,Chiclayo,Premium,2019-07-16
+C100266,Zacarias Fernando Herrera Silva,1991-05-19,M,Puno,Estándar,2020-10-02
+C100267,  Ana Maria Vargas Torres  ,1984-10-12,,Arequipa,Estándar,2021-01-18
+C100268,Benjamin Enrique Reyes Flores,1990-03-05,M,Lima,Premium,2019-06-24
+C100269,Cecilia Rosa Paredes Diaz,1988-07-28,F,Trujillo,VIP,2017-11-10
+C100270,zzz,2099-12-31,0,Liam,Gold,2030-01-01
+C100271,Dante Augusto Solis Ramos,1995-12-21,M,Cusco,Joven,2022-06-07
+C100272,Esmeralda Sofia Delgado Cruz,1987-05-14,F,Lima,Premium,2019-10-30
+C100273,Fabricio Daniel Vega Morales,1993-10-07,M,Chiclayo,Estándar,2020-12-16
+C100274,Gabriela Melissa Montalvo Herrera,1986-02-28,F,Puno,Premium,2019-04-14
+C100275,Humberto Luis Caceres Torres,1992-07-21,M,Arequipa,VIP,2018-06-30
+C100276,Ingrid Carolina Mendoza Silva,1985-12-14,F,Lima,Estándar,2020-09-15
+C100277,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100278,Javier Alonso Quispe Ramos,1991-05-07,M,Trujillo,Premium,2019-11-23
+C100279,Karina Vanessa Diaz Fernandez,1984-09-30,F,Cusco,VIP,2017-08-09
+C100280,Luis Fernando Lopez Silva,1990-02-23,M,Lima,Estándar,2020-10-25
+C100281,Maritza Elena Rojas Campos,1988-07-16,F,Chiclayo,Premium,2019-08-11
+C100282,MARIA LOPEZ GARCIA,1995-12-09,F,Puno,Joven,2021-11-27
+C100283,test123,1900-01-01,X,Trjuillo,N/A,
+C100284,Nelson David Torres Diaz,1987-05-02,M,Arequipa,Premium,2019-09-18
+C100285,Ofelia Isabel Castillo Vargas,1993-09-25,F,Lima,Estándar,2020-11-04
+C100286,Pedro Antonio Flores Huaman,1986-02-18,M,Trujillo,VIP,2018-01-20
+C100287,Roxana Maria Paredes Cruz,1992-07-11,F,Cusco,Premium,2019-07-06
+C100288,Santiago Javier Vega Romero,1985-12-04,M,Lima,Estándar,2020-09-22
+C100289,Tatiana Sofia Morales Gutierrez,1991-04-27,F,Chiclayo,Premium,2019-06-08
+C100290,NULL,NULL,N/A,Lima,NULL,NULL
+C100291,Ulises Manuel Chavez Silva,1984-09-20,M,Puno,VIP,2017-07-24
+C100292,Valeria Carolina Campos Torres,1990-02-13,F,Arequipa,Estándar,2020-10-10
+C100293,Wilson Alberto Diaz Fernandez,1988-07-06,M,Lima,Premium,2019-08-26
+C100294,Ximena Patricia Martinez Ramos,1995-11-29,F,Trujillo,Joven,2022-01-14
+C100295,Yolanda Rosa Lopez Silva,1987-04-22,F,Cusco,Premium,2019-10-08
+C100296,Zandy Fernando Herrera Paz,1993-09-15,M,Lima,Estándar,2020-11-24
+C100297,xxxxxx,,,lima,basico,
+C100298,Andrea Beatriz Soto Medina,1986-02-08,F,Chiclayo,VIP,2018-02-24
+C100299,Bruno Enrique Jimenez Torres,1992-07-01,M,Puno,Premium,2019-09-10
+C100300,Camila Isabel Navarro Cruz,1985-11-24,F,Arequipa,Estándar,2020-12-26
+C100301,Daniel Augusto Cordova Ramos,1991-04-17,M,Lima,Premium,2019-07-02
+C100302,Elena Sophia Palacios Diaz,1984-09-10,F,Trujillo,VIP,2017-08-18
+C100303,asdasd,2099-12-31,0,Liam,Gold,2030-01-01
+C100304,Felipe Andres Ortega Flores,1990-02-03,M,Cusco,Estándar,2020-10-19
+C100305,Gloria Mercedes Salazar Vega,1988-06-26,F,Lima,Premium,2019-09-05
+C100306, Isabel  Cristina   Benavides Morales ,1995-11-19,F ,Chiclayo,Joven,2022-07-21
+C100307,Julio Cesar Quintana Herrera,1987-04-12,M,Puno,Premium,2019-06-28
+C100308,Karla Vanessa Carrillo Campos,1993-09-05,F,Arequipa,Estándar,2020-11-14
+C100309,Maria2023,1986-01-28,,Lima,medio,
+C100310,Leonardo Fabian Espinoza Ruiz,1992-06-21,M,Trujillo,Premium,2019-08-07
+C100311,Monica Patricia Aguilar Torres,1985-11-14,F,Cusco,VIP,2017-09-23
+C100312,Nicolas Alejandro Fernandez Silva,1991-04-07,M,Lima,Estándar,2020-10-09
+C100313,Olivia Daniela Gutierrez Lopez,1984-08-30,F,Chiclayo,Premium,2019-07-25
+C100314,Pablo Andres Sandoval Diaz,1990-01-23,M,Puno,VIP,2018-05-11
+C100315,test,0000-00-00,1,aerquipa,normal,
+C100316,Regina Sofia Romero Chavez,1988-06-16,F,Arequipa,Estándar,2020-09-27
+C100317,Rodrigo Manuel Guerrero Paz,1995-11-09,M,Lima,Joven,2021-12-13
+C100318,Silvia Elena Castro Mendoza,1987-04-02,F,Trujillo,Premium,2019-10-19
+C100319,Tomas Alberto Herrera Silva,1993-08-25,M,Cusco,Estándar,2020-11-05
+C100320,Ursula Maria Vargas Torres,1986-01-18,F,Lima,Premium,2019-06-21
+C100321,NULL,NULL,N/A,Lima,NULL,NULL
+C100322,Victor Hugo Reyes Flores,1992-06-11,M,Chiclayo,VIP,2018-04-27
+C100323,Wendy Carolina Paredes Diaz,1985-11-04,F,Puno,Estándar,2020-10-13
+C100324,xavier garcia,1991-03-27,M,Arequipa,Premium,2019-08-29
+C100325,Yessica Isabel Solis Ramos,1984-08-20,F,Lima,VIP,2017-07-15
+C100326,Zacarias Fernando Delgado Cruz,1990-01-13,M,Trujillo,Estándar,2020-09-01
+C100327,  Ana Maria Vega Morales  ,1988-06-06,,Cusco,Estándar,2021-01-17
+C100328,Benjamin Enrique Montalvo Herrera,1995-10-29,M,Lima,Joven,2022-08-03
+C100329,Cecilia Rosa Caceres Torres,1987-03-22,F,Chiclayo,Premium,2019-09-19
+C100330,zzz,1900-01-01,X,Liam,N/A,
+C100331,Dante Augusto Mendoza Silva,1993-08-15,M,Puno,Premium,2019-11-05
+C100332,Esmeralda Sofia Quispe Ramos,1986-01-08,F,Arequipa,VIP,2018-03-21
+C100333,Fabricio Daniel Diaz Fernandez,1992-06-01,M,Lima,Estándar,2020-10-17
+C100334,Gabriela Melissa Lopez Silva,1985-10-24,F,Trujillo,Premium,2019-08-03
+C100335,Humberto Luis Rojas Campos,1991-03-17,M,Cusco,Estándar,2020-11-19
+C100336,Ingrid Carolina Torres Diaz,1984-08-10,F,Lima,Premium,2019-07-05
+C100337,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100338,Javier Alonso Castillo Vargas,1990-01-03,M,Chiclayo,VIP,2018-06-19
+C100339,Karina Vanessa Flores Huaman,1988-05-26,F,Puno,Estándar,2020-09-05
+C100340,Luis Fernando Paredes Cruz,1995-10-19,M,Arequipa,Joven,2021-11-21
+C100341,Maritza Elena Vega Romero,1987-03-12,F,Lima,Premium,2019-09-07
+C100342,MARIA LOPEZ GARCIA,1993-08-05,F,Trujillo,VIP,2017-10-23
+C100343,test123,2099-12-31,0,Trjuillo,Gold,2030-01-01
+C100344,Nelson David Morales Gutierrez,1986-12-28,M,Cusco,Premium,2019-06-14
+C100345,Ofelia Isabel Chavez Silva,1992-05-21,F,Lima,Estándar,2020-10-30
+C100346,Pedro Antonio Campos Torres,1985-10-14,M,Chiclayo,VIP,2017-08-16
+C100347,Roxana Maria Diaz Fernandez,1991-03-07,F,Puno,Premium,2019-10-22
+C100348,Santiago Javier Martinez Ramos,1984-07-30,M,Arequipa,Estándar,2020-11-08
+C100349,Tatiana Sofia Lopez Silva,1990-12-23,F,Lima,Premium,2019-08-24
+C100350,NULL,NULL,N/A,Lima,NULL,NULL
+C100351,Ulises Manuel Herrera Paz,1988-05-16,M,Trujillo,VIP,2018-05-10
+C100352,Valeria Carolina Soto Medina,1995-10-09,F,Cusco,Joven,2022-09-26
+C100353,Wilson Alberto Jimenez Torres,1987-03-02,M,Lima,Premium,2019-11-12
+C100354,Ximena Patricia Navarro Cruz,1993-07-25,F,Chiclayo,Estándar,2020-12-28
+C100355,Yolanda Rosa Cordova Ramos,1986-12-18,F,Puno,Premium,2019-09-14
+C100356,Zandy Fernando Palacios Diaz,1992-05-11,M,Arequipa,VIP,2018-07-30
+C100357,xxxxxx,,,lima,basico,
+C100358,Andrea Beatriz Ortega Flores,1985-10-04,F,Lima,Estándar,2020-10-16
+C100359,Bruno Enrique Salazar Vega,1991-02-27,M,Trujillo,Premium,2019-08-02
+C100360,Camila Isabel Benavides Morales,1984-07-20,F,Cusco,VIP,2017-09-18
+C100361,Daniel Augusto Quintana Herrera,1990-12-13,M,Lima,Estándar,2020-11-04
+C100362,Elena Sophia Carrillo Campos,1988-05-06,F,Chiclayo,Premium,2019-07-20
+C100363,asdasd,1900-01-01,X,Liam,N/A,
+C100364,Felipe Andres Espinoza Ruiz,1995-09-29,M,Puno,Joven,2021-10-16
+C100365,Gloria Mercedes Aguilar Torres,1987-02-22,F,Arequipa,Premium,2019-09-02
+C100366, Isabel  Cristina   Fernandez Silva ,1993-07-15,F ,Lima,Estándar,2020-11-18
+C100367,Julio Cesar Gutierrez Lopez,1986-12-08,M,Trujillo,VIP,2018-08-04
+C100368,Karla Vanessa Sandoval Diaz,1992-05-01,F,Cusco,Premium,2019-10-20
+C100369,Maria2023,1985-09-24,,Lima,medio,
+C100370,Leonardo Fabian Romero Chavez,1991-02-17,M,Chiclayo,Estándar,2020-09-06
+C100371,Monica Patricia Guerrero Paz,1984-07-10,F,Puno,VIP,2017-10-22
+C100372,Nicolas Alejandro Castro Mendoza,1990-12-03,M,Arequipa,Premium,2019-08-18
+C100373,Olivia Daniela Herrera Silva,1988-04-26,F,Lima,Estándar,2020-10-04
+C100374,Pablo Andres Vargas Torres,1995-09-19,M,Trujillo,Joven,2022-11-20
+C100375,test,0000-00-00,1,aerquipa,normal,
+C100376,Regina Sofia Reyes Flores,1987-02-12,F,Cusco,Premium,2019-09-28
+C100377,Rodrigo Manuel Paredes Diaz,1993-07-05,M,Lima,VIP,2018-06-14
+C100378,Silvia Elena Solis Ramos,1986-11-28,F,Chiclayo,Estándar,2020-10-30
+C100379,Tomas Alberto Delgado Cruz,1992-04-21,M,Puno,Premium,2019-11-16
+C100380,Ursula Maria Vega Morales,1985-09-14,F,Arequipa,VIP,2017-08-02
+C100381,NULL,NULL,N/A,Lima,NULL,NULL
+C100382,Victor Hugo Montalvo Herrera,1991-02-07,M,Lima,Premium,2019-10-23
+C100383,Wendy Carolina Caceres Torres,1984-06-30,F,Trujillo,Estándar,2020-11-09
+C100384,xavier garcia,1990-11-23,M,Cusco,Premium,2019-09-25
+C100385,Yessica Isabel Mendoza Silva,1988-04-16,F,Lima,VIP,2018-07-11
+C100386,Zacarias Fernando Quispe Ramos,1995-09-09,M,Chiclayo,Joven,2021-12-27
+C100387,  Ana Maria Diaz Fernandez  ,1987-02-02,,Puno,Estándar,2021-01-18
+C100388,Benjamin Enrique Lopez Silva,1993-06-25,M,Arequipa,Premium,2019-08-11
+C100389,Cecilia Rosa Rojas Campos,1986-11-18,F,Lima,VIP,2017-09-27
+C100390,zzz,2099-12-31,0,Liam,Gold,2030-01-01
+C100391,Dante Augusto Torres Diaz,1992-04-11,M,Trujillo,Premium,2019-10-27
+C100392,Esmeralda Sofia Castillo Vargas,1985-09-04,F,Cusco,Estándar,2020-11-13
+C100393,Fabricio Daniel Flores Huaman,1991-01-27,M,Lima,Premium,2019-09-29
+C100394,Gabriela Melissa Paredes Cruz,1984-06-20,F,Chiclayo,VIP,2018-08-15
+C100395,Humberto Luis Vega Romero,1990-11-13,M,Puno,Estándar,2020-10-01
+C100396,Ingrid Carolina Morales Gutierrez,1988-04-06,F,Arequipa,Premium,2019-11-17
+C100397,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100398,Javier Alonso Chavez Silva,1995-08-29,M,Lima,Joven,2022-10-13
+C100399,Karina Vanessa Campos Torres,1987-01-22,F,Trujillo,Premium,2019-08-29
+C100400,Luis Fernando Diaz Fernandez,1993-06-15,M,Cusco,VIP,2018-07-15
+C100401,Maritza Elena Martinez Ramos,1986-11-08,F,Lima,Estándar,2020-09-21
+C100402,MARIA LOPEZ GARCIA,1992-04-01,F,Chiclayo,Premium,2019-10-07
+C100403,test123,1900-01-01,X,Trjuillo,N/A,
+C100404,Nelson David Lopez Silva,1985-08-24,M,Puno,VIP,2017-11-23
+C100405,Ofelia Isabel Herrera Paz,1991-01-17,F,Arequipa,Premium,2019-09-09
+C100406,Pedro Antonio Soto Medina,1984-06-10,M,Lima,Estándar,2020-10-25
+C100407,Roxana Maria Jimenez Torres,1990-11-03,F,Trujillo,Premium,2019-08-21
+C100408,Santiago Javier Navarro Cruz,1988-03-26,M,Cusco,VIP,2018-06-07
+C100409,Tatiana Sofia Cordova Ramos,1995-08-19,F,Lima,Joven,2021-11-23
+C100410,NULL,NULL,N/A,Lima,NULL,NULL
+C100411,Ulises Manuel Palacios Diaz,1987-01-12,M,Chiclayo,Premium,2019-10-29
+C100412,Valeria Carolina Ortega Flores,1993-06-05,F,Puno,Estándar,2020-11-15
+C100413,Wilson Alberto Salazar Vega,1986-10-28,M,Arequipa,VIP,2017-09-01
+C100414,Ximena Patricia Benavides Morales,1992-03-21,F,Lima,Premium,2019-11-07
+C100415,Yolanda Rosa Quintana Herrera,1985-08-14,F,Trujillo,Estándar,2020-10-23
+C100416,Zandy Fernando Carrillo Campos,1991-01-07,M,Cusco,Premium,2019-09-19
+C100417,xxxxxx,,,lima,basico,
+C100418,Andrea Beatriz Espinoza Ruiz,1984-05-30,F,Lima,VIP,2018-08-05
+C100419,Bruno Enrique Aguilar Torres,1990-10-23,M,Chiclayo,Premium,2019-10-11
+C100420,Camila Isabel Fernandez Silva,1988-03-16,F,Puno,Estándar,2020-11-27
+C100421,Daniel Augusto Gutierrez Lopez,1995-08-09,M,Arequipa,Joven,2022-01-13
+C100422,Elena Sophia Sandoval Diaz,1987-01-02,F,Lima,Premium,2019-09-29
+C100423,asdasd,2099-12-31,0,Liam,Gold,2030-01-01
+C100424,Felipe Andres Romero Chavez,1993-05-25,M,Trujillo,VIP,2018-07-11
+C100425,Gloria Mercedes Guerrero Paz,1986-10-18,F,Cusco,Estándar,2020-10-27
+C100426, Isabel  Cristina   Castro Mendoza ,1992-03-11,F ,Lima,Premium,2019-11-13
+C100427,Julio Cesar Herrera Silva,1985-08-04,M,Chiclayo,VIP,2017-09-29
+C100428,Karla Vanessa Vargas Torres,1991-12-27,F,Puno,Estándar,2020-10-15
+C100429,Maria2023,1984-05-20,,Arequipa,medio,
+C100430,Leonardo Fabian Reyes Flores,1990-10-13,M,Lima,Premium,2019-08-29
+C100431,Monica Patricia Paredes Diaz,1988-03-06,F,Trujillo,VIP,2018-06-15
+C100432,Nicolas Alejandro Solis Ramos,1995-07-29,M,Cusco,Joven,2021-10-11
+C100433,Olivia Daniela Delgado Cruz,1987-12-22,F,Lima,Premium,2019-09-27
+C100434,Pablo Andres Vega Morales,1993-05-15,M,Chiclayo,Estándar,2020-11-13
+C100435,test,0000-00-00,1,aerquipa,normal,
+C100436,Regina Sofia Montalvo Herrera,1986-10-08,F,Puno,VIP,2017-08-24
+C100437,Rodrigo Manuel Caceres Torres,1992-03-01,M,Arequipa,Premium,2019-10-10
+C100438,Silvia Elena Mendoza Silva,1985-07-24,F,Lima,Estándar,2020-09-26
+C100439,Tomas Alberto Quispe Ramos,1991-12-17,M,Trujillo,Premium,2019-08-12
+C100440,Ursula Maria Diaz Fernandez,1984-05-10,F,Cusco,VIP,2018-07-28
+C100441,NULL,NULL,N/A,Lima,NULL,NULL
+C100442,Victor Hugo Lopez Silva,1990-10-03,M,Lima,Premium,2019-09-14
+C100443,Wendy Carolina Rojas Campos,1988-02-26,F,Chiclayo,Estándar,2020-10-30
+C100444,xavier garcia,1995-07-19,M,Puno,Joven,2022-12-16
+C100445,Yessica Isabel Torres Diaz,1987-12-12,F,Arequipa,Premium,2019-10-26
+C100446,Zacarias Fernando Castillo Vargas,1993-05-05,M,Lima,VIP,2018-08-12
+C100447,  Ana Maria Flores Huaman  ,1986-09-28,,Trujillo,Estándar,2021-01-19
+C100448,Benjamin Enrique Paredes Cruz,1992-02-21,M,Cusco,Premium,2019-11-05
+C100449,Cecilia Rosa Vega Romero,1985-07-14,F,Lima,VIP,2017-09-21
+C100450,zzz,1900-01-01,X,Liam,N/A,
+C100451,Dante Augusto Morales Gutierrez,1991-12-07,M,Chiclayo,Premium,2019-10-17
+C100452,Esmeralda Sofia Chavez Silva,1984-04-30,F,Puno,Estándar,2020-11-03
+C100453,Fabricio Daniel Campos Torres,1990-09-23,M,Arequipa,Premium,2019-09-19
+C100454,Gabriela Melissa Diaz Fernandez,1988-02-16,F,Lima,VIP,2018-07-05
+C100455,Humberto Luis Martinez Ramos,1995-07-09,M,Trujillo,Joven,2021-11-25
+C100456,Ingrid Carolina Lopez Silva,1987-12-02,F,Cusco,Premium,2019-10-11
+C100457,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100458,Javier Alonso Herrera Paz,1993-04-25,M,Lima,VIP,2018-06-21
+C100459,Karina Vanessa Soto Medina,1986-09-18,F,Chiclayo,Estándar,2020-10-07
+C100460,Luis Fernando Jimenez Torres,1992-02-11,M,Puno,Premium,2019-09-23
+C100461,Maritza Elena Navarro Cruz,1985-07-04,F,Arequipa,VIP,2017-08-09
+C100462,MARIA LOPEZ GARCIA,1991-11-27,F,Lima,Estándar,2020-10-13
+C100463,test123,2099-12-31,0,Trjuillo,Gold,2030-01-01
+C100464,Nelson David Cordova Ramos,1984-04-20,M,Trujillo,Premium,2019-11-29
+C100465,Ofelia Isabel Palacios Diaz,1990-09-13,F,Cusco,VIP,2018-08-15
+C100466,Pedro Antonio Ortega Flores,1988-02-06,M,Lima,Estándar,2020-09-01
+C100467,Roxana Maria Salazar Vega,1995-06-29,F,Chiclayo,Joven,2022-10-17
+C100468,Santiago Javier Benavides Morales,1987-11-22,M,Puno,Premium,2019-10-03
+C100469,Tatiana Sofia Quintana Herrera,1993-04-15,F,Arequipa,Estándar,2020-11-19
+C100470,NULL,NULL,N/A,Lima,NULL,NULL
+C100471,Ulises Manuel Carrillo Campos,1986-09-08,M,Lima,VIP,2017-09-05
+C100472,Valeria Carolina Espinoza Ruiz,1992-02-01,F,Trujillo,Premium,2019-10-21
+C100473,Wilson Alberto Aguilar Torres,1985-06-24,M,Cusco,Estándar,2020-09-07
+C100474,Ximena Patricia Fernandez Silva,1991-11-17,F,Lima,Premium,2019-08-23
+C100475,Yolanda Rosa Gutierrez Lopez,1984-04-10,F,Chiclayo,VIP,2018-07-09
+C100476,Zandy Fernando Sandoval Diaz,1990-09-03,M,Puno,Estándar,2020-10-25
+C100477,xxxxxx,,,lima,basico,
+C100478,Andrea Beatriz Romero Chavez,1988-01-26,F,Arequipa,Premium,2019-09-11
+C100479,Bruno Enrique Guerrero Paz,1995-06-19,M,Lima,Joven,2021-11-27
+C100480,Camila Isabel Castro Mendoza,1987-11-12,F,Trujillo,VIP,2017-10-13
+C100481,Daniel Augusto Herrera Silva,1993-04-05,M,Cusco,Premium,2019-11-29
+C100482,Elena Sophia Vargas Torres,1986-08-28,F,Lima,Estándar,2020-10-15
+C100483,asdasd,1900-01-01,X,Liam,N/A,
+C100484,Felipe Andres Reyes Flores,1992-01-21,M,Chiclayo,Premium,2019-09-07
+C100485,Gloria Mercedes Paredes Diaz,1985-06-14,F,Puno,VIP,2018-08-23
+C100486, Isabel  Cristina   Solis Ramos ,1991-11-07,F ,Arequipa,Estándar,2020-10-09
+C100487,Julio Cesar Delgado Cruz,1984-03-30,M,Lima,Premium,2019-11-25
+C100488,Karla Vanessa Vega Morales,1990-08-23,F,Trujillo,VIP,2017-09-11
+C100489,Maria2023,1988-01-16,,Cusco,medio,
+C100490,Leonardo Fabian Montalvo Herrera,1995-06-09,M,Lima,Joven,2022-09-25
+C100491,Monica Patricia Caceres Torres,1987-11-02,F,Chiclayo,Premium,2019-10-11
+C100492,Nicolas Alejandro Mendoza Silva,1993-03-25,M,Puno,Estándar,2020-11-27
+C100493,Olivia Daniela Quispe Ramos,1986-08-18,F,Arequipa,Premium,2019-09-13
+C100494,Pablo Andres Diaz Fernandez,1992-01-11,M,Lima,VIP,2018-07-29
+C100495,test,0000-00-00,1,aerquipa,normal,
+C100496,Regina Sofia Lopez Silva,1985-05-04,F,Trujillo,Estándar,2020-10-10
+C100497,Rodrigo Manuel Rojas Campos,1991-10-27,M,Cusco,Premium,2019-08-26
+C100498,Silvia Elena Torres Diaz,1984-03-20,F,Lima,VIP,2017-08-12
+C100499,Tomas Alberto Castillo Vargas,1990-08-13,M,Chiclayo,Premium,2019-10-28
+C100500,Ursula Maria Flores Huaman,1988-01-06,F,Puno,Estándar,2020-09-14
+C100501,NULL,NULL,N/A,Lima,NULL,NULL
+C100502,Victor Hugo Paredes Cruz,1995-05-29,M,Arequipa,Joven,2021-12-10
+C100503,Wendy Carolina Vega Romero,1987-10-22,F,Lima,Premium,2019-09-26
+C100504,xavier garcia,1993-03-15,M,Trujillo,VIP,2018-06-12
+C100505,Yessica Isabel Morales Gutierrez,1986-08-08,F,Cusco,Estándar,2020-10-28
+C100506,Zacarias Fernando Chavez Silva,1992-12-01,M,Lima,Premium,2019-08-14
+C100507,  Ana Maria Campos Torres  ,1985-04-24,,Chiclayo,Estándar,2021-01-20
+C100508,Benjamin Enrique Diaz Fernandez,1991-09-17,M,Puno,VIP,2017-09-06
+C100509,Cecilia Rosa Martinez Ramos,1984-02-10,F,Arequipa,Premium,2019-10-22
+C100510,zzz,2099-12-31,0,Liam,Gold,2030-01-01
+C100511,Dante Augusto Lopez Silva,1990-07-03,M,Lima,Premium,2019-09-08
+C100512,Esmeralda Sofia Herrera Paz,1988-11-26,F,Trujillo,Estándar,2020-10-24
+C100513,Fabricio Daniel Soto Medina,1995-04-19,M,Cusco,Joven,2022-11-10
+C100514,Gabriela Melissa Jimenez Torres,1987-09-12,F,Lima,Premium,2019-10-28
+C100515,Humberto Luis Navarro Cruz,1993-02-05,M,Chiclayo,VIP,2018-08-14
+C100516,Ingrid Carolina Cordova Ramos,1986-06-28,F,Puno,Estándar,2020-09-30
+C100517,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100518,Javier Alonso Palacios Diaz,1992-11-21,M,Arequipa,Premium,2019-09-16
+C100519,Karina Vanessa Ortega Flores,1985-04-14,F,Lima,VIP,2017-08-02
+C100520,Luis Fernando Salazar Vega,1991-09-07,M,Trujillo,Estándar,2020-10-18
+C100521,Maritza Elena Benavides Morales,1984-01-30,F,Cusco,Premium,2019-11-04
+C100522,MARIA LOPEZ GARCIA,1990-06-23,F,Lima,VIP,2018-07-20
+C100523,test123,1900-01-01,X,Trjuillo,N/A,
+C100524,Nelson David Quintana Herrera,1988-11-16,M,Chiclayo,Premium,2019-10-06
+C100525,Ofelia Isabel Carrillo Campos,1995-04-09,F,Puno,Joven,2021-12-22
+C100526,Pedro Antonio Espinoza Ruiz,1987-09-02,M,Arequipa,Estándar,2020-09-08
+C100527,Roxana Maria Aguilar Torres,1993-01-25,F,Lima,Premium,2019-10-24
+C100528,Santiago Javier Fernandez Silva,1986-06-18,M,Trujillo,VIP,2018-08-04
+C100529,Tatiana Sofia Gutierrez Lopez,1992-11-11,F,Cusco,Premium,2019-09-20
+C100530,NULL,NULL,N/A,Lima,NULL,NULL
+C100531,Ulises Manuel Sandoval Diaz,1985-04-04,M,Lima,Estándar,2020-10-06
+C100532,Valeria Carolina Romero Chavez,1991-08-27,F,Chiclayo,Premium,2019-10-22
+C100533,Wilson Alberto Guerrero Paz,1984-01-20,M,Puno,VIP,2017-09-08
+C100534,Ximena Patricia Castro Mendoza,1990-06-13,F,Arequipa,Estándar,2020-09-24
+C100535,Yolanda Rosa Herrera Silva,1988-11-06,F,Lima,Premium,2019-08-10
+C100536,Zandy Fernando Vargas Torres,1995-03-29,M,Trujillo,Joven,2022-10-26
+C100537,xxxxxx,,,lima,basico,
+C100538,Andrea Beatriz Reyes Flores,1987-08-22,F,Cusco,VIP,2018-07-12
+C100539,Bruno Enrique Paredes Diaz,1993-01-15,M,Lima,Premium,2019-09-28
+C100540,Camila Isabel Solis Ramos,1986-06-08,F,Chiclayo,Estándar,2020-10-14
+C100541,Daniel Augusto Delgado Cruz,1992-11-01,M,Puno,Premium,2019-08-30
+C100542,Elena Sophia Vega Morales,1985-03-24,F,Arequipa,VIP,2017-08-16
+C100543,asdasd,2099-12-31,0,Liam,Gold,2030-01-01
+C100544,Felipe Andres Montalvo Herrera,1991-08-17,M,Lima,Estándar,2020-10-03
+C100545,Gloria Mercedes Caceres Torres,1984-01-10,F,Trujillo,Premium,2019-11-19
+C100546, Isabel  Cristina   Mendoza Silva ,1990-06-03,F ,Cusco,VIP,2018-08-05
+C100547,Julio Cesar Quispe Ramos,1988-10-26,M,Lima,Premium,2019-10-11
+C100548,Karla Vanessa Diaz Fernandez,1995-03-19,F,Chiclayo,Joven,2022-11-27
+C100549,Maria2023,1987-08-12,,Puno,medio,
+C100550,Leonardo Fabian Lopez Silva,1993-01-05,M,Arequipa,Premium,2019-09-21
+C100551,Monica Patricia Rojas Campos,1986-05-28,F,Lima,VIP,2017-09-07
+C100552,Nicolas Alejandro Torres Diaz,1992-10-21,M,Trujillo,Estándar,2020-10-23
+C100553,Olivia Daniela Castillo Vargas,1985-03-14,F,Cusco,Premium,2019-11-09
+C100554,Pablo Andres Flores Huaman,1991-08-07,M,Lima,VIP,2018-08-25
+C100555,test,0000-00-00,1,aerquipa,normal,
+C100556,Regina Sofia Paredes Cruz,1984-12-30,F,Chiclayo,Estándar,2020-09-11
+C100557,Rodrigo Manuel Vega Romero,1990-05-23,M,Puno,Premium,2019-10-27
+C100558,Silvia Elena Morales Gutierrez,1988-10-16,F,Arequipa,VIP,2017-08-13
+C100559,Tomas Alberto Chavez Silva,1995-03-09,M,Lima,Joven,2021-11-25
+C100560,Ursula Maria Campos Torres,1987-08-02,F,Trujillo,Premium,2019-09-11
+C100561,NULL,NULL,N/A,Lima,NULL,NULL
+C100562,Victor Hugo Diaz Fernandez,1993-12-25,M,Cusco,Estándar,2020-10-07
+C100563,Wendy Carolina Martinez Ramos,1986-05-18,F,Lima,Premium,2019-10-23
+C100564,xavier garcia,1992-10-11,M,Chiclayo,VIP,2018-07-09
+C100565,Yessica Isabel Lopez Silva,1985-03-04,F,Puno,Estándar,2020-09-25
+C100566,Zacarias Fernando Herrera Paz,1991-07-27,M,Arequipa,Premium,2019-08-11
+C100567,  Ana Maria Soto Medina  ,1984-12-20,,Lima,Estándar,2021-01-21
+C100568,Benjamin Enrique Jimenez Torres,1990-05-13,M,Trujillo,VIP,2017-09-27
+C100569,Cecilia Rosa Navarro Cruz,1988-10-06,F,Cusco,Premium,2019-10-13
+C100570,zzz,1900-01-01,X,Liam,N/A,
+C100571,Dante Augusto Cordova Ramos,1995-02-27,M,Lima,Joven,2022-09-13
+C100572,Esmeralda Sofia Palacios Diaz,1987-07-22,F,Chiclayo,Premium,2019-09-29
+C100573,Fabricio Daniel Ortega Flores,1993-12-15,M,Puno,Estándar,2020-10-15
+C100574,Gabriela Melissa Salazar Vega,1986-05-08,F,Arequipa,Premium,2019-11-01
+C100575,Humberto Luis Benavides Morales,1992-10-01,M,Lima,VIP,2018-08-17
+C100576,Ingrid Carolina Quintana Herrera,1985-02-24,F,Trujillo,Estándar,2020-10-03
+C100577,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100578,Javier Alonso Carrillo Campos,1991-07-17,M,Cusco,Premium,2019-09-23
+C100579,Karina Vanessa Espinoza Ruiz,1984-12-10,F,Lima,VIP,2017-08-09
+C100580,Luis Fernando Aguilar Torres,1990-05-03,M,Chiclayo,Estándar,2020-09-19
+C100581,Maritza Elena Fernandez Silva,1988-09-26,F,Puno,Premium,2019-10-05
+C100582,MARIA LOPEZ GARCIA,1995-02-19,F,Arequipa,Joven,2021-12-21
+C100583,test123,2099-12-31,0,Trjuillo,Gold,2030-01-01
+C100584,Nelson David Gutierrez Lopez,1987-07-12,M,Lima,Premium,2019-09-27
+C100585,Ofelia Isabel Sandoval Diaz,1993-12-05,F,Trujillo,VIP,2018-07-13
+C100586,Pedro Antonio Romero Chavez,1986-04-28,M,Cusco,Estándar,2020-09-29
+C100587,Roxana Maria Guerrero Paz,1992-09-21,F,Lima,Premium,2019-08-15
+C100588,Santiago Javier Castro Mendoza,1985-02-14,M,Chiclayo,VIP,2017-09-01
+C100589,Tatiana Sofia Herrera Silva,1991-07-07,F,Puno,Premium,2019-10-17
+C100590,NULL,NULL,N/A,Lima,NULL,NULL
+C100591,Ulises Manuel Vargas Torres,1984-11-30,M,Arequipa,Estándar,2020-10-03
+C100592,Valeria Carolina Reyes Flores,1990-04-23,F,Lima,Premium,2019-09-19
+C100593,Wilson Alberto Paredes Diaz,1988-09-16,M,Trujillo,VIP,2018-08-05
+C100594,Ximena Patricia Solis Ramos,1995-02-09,F,Cusco,Joven,2022-10-21
+C100595,Yolanda Rosa Delgado Cruz,1987-07-02,F,Lima,Premium,2019-10-07
+C100596,Zandy Fernando Vega Morales,1993-11-25,M,Chiclayo,Estándar,2020-09-23
+C100597,xxxxxx,,,lima,basico,
+C100598,Andrea Beatriz Montalvo Herrera,1986-04-18,F,Puno,VIP,2018-07-04
+C100599,Bruno Enrique Caceres Torres,1992-09-11,M,Arequipa,Premium,2019-10-20
+C100600,Camila Isabel Mendoza Silva,1985-02-04,F,Lima,Estándar,2020-10-06
+C100601,Daniel Augusto Quispe Ramos,1991-06-27,M,Trujillo,Premium,2019-09-22
+C100602,Elena Sophia Diaz Fernandez,1984-11-20,F,Cusco,VIP,2017-08-08
+C100603,asdasd,1900-01-01,X,Liam,N/A,
+C100604,Felipe Andres Lopez Silva,1990-04-13,M,Lima,Estándar,2020-10-24
+C100605,Gloria Mercedes Rojas Campos,1988-09-06,F,Chiclayo,Premium,2019-10-10
+C100606, Isabel  Cristina   Torres Diaz ,1995-01-29,F ,Puno,Joven,2022-11-26
+C100607,Julio Cesar Castillo Vargas,1987-06-22,M,Arequipa,VIP,2018-08-12
+C100608,Karla Vanessa Flores Huaman,1993-11-15,F,Lima,Premium,2019-09-28
+C100609,Maria2023,1986-04-08,,Trujillo,medio,
+C100610,Leonardo Fabian Paredes Cruz,1992-09-01,M,Cusco,Estándar,2020-10-17
+C100611,Monica Patricia Vega Romero,1985-01-24,F,Lima,VIP,2017-09-03
+C100612,Nicolas Alejandro Morales Gutierrez,1991-06-17,M,Chiclayo,Premium,2019-10-19
+C100613,Olivia Daniela Chavez Silva,1984-11-10,F,Puno,Estándar,2020-09-05
+C100614,Pablo Andres Campos Torres,1990-04-03,M,Arequipa,Premium,2019-11-21
+C100615,test,0000-00-00,1,aerquipa,normal,
+C100616,Regina Sofia Diaz Fernandez,1988-08-26,F,Lima,VIP,2018-07-07
+C100617,Rodrigo Manuel Martinez Ramos,1995-01-19,M,Trujillo,Joven,2021-12-23
+C100618,Silvia Elena Lopez Silva,1987-06-12,F,Cusco,Premium,2019-09-29
+C100619,Tomas Alberto Herrera Paz,1993-11-05,M,Lima,Estándar,2020-10-15
+C100620,Ursula Maria Soto Medina,1986-03-28,F,Chiclayo,Premium,2019-11-01
+C100621,NULL,NULL,N/A,Lima,NULL,NULL
+C100622,Victor Hugo Jimenez Torres,1992-08-21,M,Puno,VIP,2018-08-17
+C100623,Wendy Carolina Navarro Cruz,1985-01-14,F,Arequipa,Estándar,2020-09-03
+C100624,xavier garcia,1991-06-07,M,Lima,Premium,2019-10-19
+C100625,Yessica Isabel Cordova Ramos,1984-10-30,F,Trujillo,VIP,2017-08-05
+C100626,Zacarias Fernando Palacios Diaz,1990-03-23,M,Cusco,Estándar,2020-10-21
+C100627,  Ana Maria Ortega Flores  ,1988-08-16,,Lima,Estándar,2021-01-22
+C100628,Benjamin Enrique Salazar Vega,1995-01-09,M,Chiclayo,Joven,2022-10-08
+C100629,Cecilia Rosa Benavides Morales,1987-06-02,F,Puno,Premium,2019-09-24
+C100630,zzz,2099-12-31,0,Liam,Gold,2030-01-01
+C100631,Dante Augusto Quintana Herrera,1993-10-25,M,Arequipa,Premium,2019-10-11
+C100632,Esmeralda Sofia Carrillo Campos,1986-03-18,F,Lima,VIP,2018-08-27
+C100633,Fabricio Daniel Espinoza Ruiz,1992-08-11,M,Trujillo,Estándar,2020-10-13
+C100634,Gabriela Melissa Aguilar Torres,1985-01-04,F,Cusco,Premium,2019-11-29
+C100635,Humberto Luis Fernandez Silva,1991-05-27,M,Lima,VIP,2017-09-15
+C100636,Ingrid Carolina Gutierrez Lopez,1984-10-20,F,Chiclayo,Estándar,2020-09-01
+C100637,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100638,Javier Alonso Sandoval Diaz,1990-03-13,M,Puno,Premium,2019-10-27
+C100639,Karina Vanessa Romero Chavez,1988-08-06,F,Arequipa,VIP,2018-07-13
+C100640,Luis Fernando Guerrero Paz,1995-12-29,M,Lima,Joven,2021-11-09
+C100641,Maritza Elena Castro Mendoza,1987-05-22,F,Trujillo,Premium,2019-09-25
+C100642,MARIA LOPEZ GARCIA,1993-10-15,F,Cusco,Estándar,2020-10-11
+C100643,test123,1900-01-01,X,Trjuillo,N/A,
+C100644,Nelson David Herrera Silva,1986-03-08,M,Lima,VIP,2017-08-24
+C100645,Ofelia Isabel Vargas Torres,1992-08-01,F,Chiclayo,Premium,2019-10-10
+C100646,Pedro Antonio Reyes Flores,1985-12-24,M,Puno,Estándar,2020-09-26
+C100647,Roxana Maria Paredes Diaz,1991-05-17,F,Arequipa,Premium,2019-11-12
+C100648,Santiago Javier Solis Ramos,1984-10-10,M,Lima,VIP,2018-08-28
+C100649,Tatiana Sofia Delgado Cruz,1990-03-03,F,Trujillo,Premium,2019-10-14
+C100650,NULL,NULL,N/A,Lima,NULL,NULL
+C100651,Ulises Manuel Vega Morales,1988-07-26,M,Cusco,Estándar,2020-10-30
+C100652,Valeria Carolina Montalvo Herrera,1995-12-19,F,Lima,Joven,2022-09-16
+C100653,Wilson Alberto Caceres Torres,1987-05-12,M,Chiclayo,Premium,2019-09-02
+C100654,Ximena Patricia Mendoza Silva,1993-10-05,F,Puno,VIP,2018-07-18
+C100655,Yolanda Rosa Quispe Ramos,1986-02-28,F,Arequipa,Estándar,2020-09-04
+C100656,Zandy Fernando Diaz Fernandez,1992-07-21,M,Lima,Premium,2019-10-20
+C100657,xxxxxx,,,lima,basico,
+C100658,Andrea Beatriz Lopez Silva,1985-12-14,F,Trujillo,VIP,2017-09-06
+C100659,Bruno Enrique Rojas Campos,1991-05-07,M,Cusco,Premium,2019-10-22
+C100660,Camila Isabel Torres Diaz,1984-09-30,F,Lima,Estándar,2020-10-08
+C100661,Daniel Augusto Castillo Vargas,1990-02-23,M,Chiclayo,Premium,2019-11-24
+C100662,Elena Sophia Flores Huaman,1988-07-16,F,Puno,VIP,2018-08-10
+C100663,asdasd,2099-12-31,0,Liam,Gold,2030-01-01
+C100664,Felipe Andres Paredes Cruz,1995-12-09,M,Arequipa,Joven,2021-10-26
+C100665,Gloria Mercedes Vega Romero,1987-05-02,F,Lima,Premium,2019-09-12
+C100666, Isabel  Cristina   Morales Gutierrez ,1993-09-25,F ,Trujillo,Estándar,2020-10-28
+C100667,Julio Cesar Chavez Silva,1986-02-18,M,Cusco,VIP,2017-08-14
+C100668,Karla Vanessa Campos Torres,1992-07-11,F,Lima,Premium,2019-10-30
+C100669,Maria2023,1985-12-04,,Chiclayo,medio,
+C100670,Leonardo Fabian Diaz Fernandez,1991-04-27,M,Puno,Estándar,2020-09-16
+C100671,Monica Patricia Martinez Ramos,1984-09-20,F,Arequipa,VIP,2018-07-02
+C100672,Nicolas Alejandro Lopez Silva,1990-02-13,M,Lima,Premium,2019-10-18
+C100673,Olivia Daniela Herrera Paz,1988-07-06,F,Trujillo,Estándar,2020-10-04
+C100674,Pablo Andres Soto Medina,1995-11-29,M,Cusco,Joven,2021-12-20
+C100675,test,0000-00-00,1,aerquipa,normal,
+C100676,Regina Sofia Jimenez Torres,1987-04-22,F,Lima,Premium,2019-09-08
+C100677,Rodrigo Manuel Navarro Cruz,1993-09-15,M,Chiclayo,VIP,2018-08-24
+C100678,Silvia Elena Cordova Ramos,1986-02-08,F,Puno,Estándar,2020-09-10
+C100679,Tomas Alberto Palacios Diaz,1992-07-01,M,Arequipa,Premium,2019-11-26
+C100680,Ursula Maria Ortega Flores,1985-11-24,F,Lima,VIP,2017-08-12
+C100681,NULL,NULL,N/A,Lima,NULL,NULL
+C100682,Victor Hugo Salazar Vega,1991-04-17,M,Trujillo,Premium,2019-10-28
+C100683,Wendy Carolina Benavides Morales,1984-09-10,F,Cusco,Estándar,2020-10-14
+C100684,xavier garcia,1990-02-03,M,Lima,Premium,2019-09-30
+C100685,Yessica Isabel Quintana Herrera,1988-06-26,F,Chiclayo,VIP,2018-07-16
+C100686,Zacarias Fernando Carrillo Campos,1995-11-19,M,Puno,Joven,2022-10-02
+C100687,  Ana Maria Espinoza Ruiz  ,1987-04-12,,Arequipa,Estándar,2021-01-23
+C100688,Benjamin Enrique Aguilar Torres,1993-09-05,M,Lima,Premium,2019-10-21
+C100689,Cecilia Rosa Fernandez Silva,1986-01-28,F,Trujillo,VIP,2017-09-07
+C100690,zzz,1900-01-01,X,Liam,N/A,
+C100691,Dante Augusto Gutierrez Lopez,1992-06-21,M,Cusco,Premium,2019-10-07
+C100692,Esmeralda Sofia Sandoval Diaz,1985-11-14,F,Lima,Estándar,2020-09-23
+C100693,Fabricio Daniel Romero Chavez,1991-04-07,M,Chiclayo,Premium,2019-11-23
+C100694,Gabriela Melissa Guerrero Paz,1984-08-30,F,Puno,VIP,2018-08-09
+C100695,Humberto Luis Castro Mendoza,1990-01-23,M,Arequipa,Estándar,2020-10-25
+C100696,Ingrid Carolina Herrera Silva,1988-06-16,F,Lima,Premium,2019-09-11
+C100697,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100698,Javier Alonso Vargas Torres,1995-11-09,M,Trujillo,Joven,2021-11-25
+C100699,Karina Vanessa Reyes Flores,1987-04-02,F,Cusco,Premium,2019-10-11
+C100700,Luis Fernando Paredes Diaz,1993-08-25,M,Lima,VIP,2018-07-27
+C100701,Maritza Elena Solis Ramos,1986-01-18,F,Chiclayo,Estándar,2020-09-13
+C100702,MARIA LOPEZ GARCIA,1992-06-11,F,Puno,Premium,2019-10-29
+C100703,test123,2099-12-31,0,Trjuillo,Gold,2030-01-01
+C100704,Nelson David Delgado Cruz,1985-11-04,M,Arequipa,VIP,2017-08-20
+C100705,Ofelia Isabel Vega Morales,1991-03-27,F,Lima,Premium,2019-09-06
+C100706,Pedro Antonio Montalvo Herrera,1984-08-20,M,Trujillo,Estándar,2020-10-22
+C100707,Roxana Maria Caceres Torres,1990-01-13,F,Cusco,Premium,2019-11-08
+C100708,Santiago Javier Mendoza Silva,1988-06-06,M,Lima,VIP,2018-08-24
+C100709,Tatiana Sofia Quispe Ramos,1995-10-29,F,Chiclayo,Joven,2022-09-10
+C100710,NULL,NULL,N/A,Lima,NULL,NULL
+C100711,Ulises Manuel Diaz Fernandez,1987-03-22,M,Puno,Premium,2019-09-26
+C100712,Valeria Carolina Lopez Silva,1993-08-15,F,Arequipa,Estándar,2020-10-12
+C100713,Wilson Alberto Rojas Campos,1986-01-08,M,Lima,VIP,2017-09-28
+C100714,Ximena Patricia Torres Diaz,1992-05-31,F,Trujillo,Premium,2019-10-14
+C100715,Yolanda Rosa Castillo Vargas,1985-10-24,F,Cusco,Estándar,2020-09-30
+C100716,Zandy Fernando Flores Huaman,1991-03-17,M,Lima,Premium,2019-11-16
+C100717,xxxxxx,,,lima,basico,
+C100718,Andrea Beatriz Paredes Cruz,1984-08-10,F,Chiclayo,VIP,2018-07-02
+C100719,Bruno Enrique Vega Romero,1990-12-03,M,Puno,Premium,2019-09-18
+C100720,Camila Isabel Morales Gutierrez,1988-04-26,F,Arequipa,Estándar,2020-10-04
+C100721,Daniel Augusto Chavez Silva,1995-09-19,M,Lima,Joven,2021-12-05
+C100722,Elena Sophia Campos Torres,1987-02-12,F,Trujillo,Premium,2019-10-21
+C100723,asdasd,1900-01-01,X,Liam,N/A,
+C100724,Felipe Andres Diaz Fernandez,1993-07-05,M,Cusco,VIP,2018-08-17
+C100725,Gloria Mercedes Martinez Ramos,1986-11-28,F,Lima,Estándar,2020-10-03
+C100726, Isabel  Cristina   Lopez Silva ,1992-04-21,F ,Chiclayo,Premium,2019-11-19
+C100727,Julio Cesar Herrera Paz,1985-09-14,M,Puno,VIP,2017-08-05
+C100728,Karla Vanessa Soto Medina,1991-02-07,F,Arequipa,Premium,2019-09-21
+C100729,Maria2023,1984-06-30,,Lima,medio,
+C100730,Leonardo Fabian Jimenez Torres,1990-11-23,M,Trujillo,Estándar,2020-10-09
+C100731,Monica Patricia Navarro Cruz,1988-04-16,F,Cusco,VIP,2018-07-25
+C100732,Nicolas Alejandro Cordova Ramos,1995-09-09,M,Lima,Joven,2021-11-25
+C100733,Olivia Daniela Palacios Diaz,1987-02-02,F,Chiclayo,Premium,2019-09-11
+C100734,Pablo Andres Ortega Flores,1993-06-25,M,Puno,Estándar,2020-10-27
+C100735,test,0000-00-00,1,aerquipa,normal,
+C100736,Regina Sofia Salazar Vega,1986-11-18,F,Arequipa,Premium,2019-11-03
+C100737,Rodrigo Manuel Benavides Morales,1992-04-11,M,Lima,VIP,2018-08-19
+C100738,Silvia Elena Quintana Herrera,1985-09-04,F,Trujillo,Estándar,2020-09-05
+C100739,Tomas Alberto Carrillo Campos,1991-01-27,M,Cusco,Premium,2019-10-21
+C100740,Ursula Maria Espinoza Ruiz,1984-06-20,F,Lima,VIP,2017-08-06
+C100741,NULL,NULL,N/A,Lima,NULL,NULL
+C100742,Victor Hugo Aguilar Torres,1990-11-13,M,Chiclayo,Premium,2019-09-22
+C100743,Wendy Carolina Fernandez Silva,1988-04-06,F,Puno,Estándar,2020-10-08
+C100744,xavier garcia,1995-08-29,M,Arequipa,Joven,2022-10-24
+C100745,Yessica Isabel Gutierrez Lopez,1987-01-22,F,Lima,Premium,2019-10-08
+C100746,Zacarias Fernando Sandoval Diaz,1993-06-15,M,Trujillo,VIP,2018-07-24
+C100747,  Ana Maria Romero Chavez  ,1986-11-08,,Cusco,Estándar,2021-01-24
+C100748,Benjamin Enrique Guerrero Paz,1992-04-01,M,Lima,Premium,2019-10-17
+C100749,Cecilia Rosa Castro Mendoza,1985-08-24,F,Chiclayo,VIP,2017-09-03
+C100750,zzz,2099-12-31,0,Liam,Gold,2030-01-01
+C100751,Dante Augusto Herrera Silva,1991-01-17,M,Puno,Premium,2019-09-29
+C100752,Esmeralda Sofia Vargas Torres,1984-06-10,F,Arequipa,Estándar,2020-10-15
+C100753,Fabricio Daniel Reyes Flores,1990-11-03,M,Lima,Premium,2019-11-01
+C100754,Gabriela Melissa Paredes Diaz,1988-03-26,F,Trujillo,VIP,2018-08-17
+C100755,Humberto Luis Solis Ramos,1995-08-19,M,Cusco,Joven,2021-10-03
+C100756,Ingrid Carolina Delgado Cruz,1987-01-12,F,Lima,Premium,2019-09-19
+C100757,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100758,Javier Alonso Vega Morales,1993-06-05,M,Chiclayo,VIP,2018-07-21
+C100759,Karina Vanessa Montalvo Herrera,1986-10-28,F,Puno,Estándar,2020-09-07
+C100760,Luis Fernando Caceres Torres,1992-03-21,M,Arequipa,Premium,2019-10-23
+C100761,Maritza Elena Mendoza Silva,1985-08-14,F,Lima,VIP,2017-08-09
+C100762,MARIA LOPEZ GARCIA,1991-01-07,F,Trujillo,Premium,2019-09-25
+C100763,test123,1900-01-01,X,Trjuillo,N/A,
+C100764,Nelson David Quispe Ramos,1984-05-30,M,Cusco,Estándar,2020-10-11
+C100765,Ofelia Isabel Diaz Fernandez,1990-10-23,F,Lima,Premium,2019-11-27
+C100766,Pedro Antonio Lopez Silva,1988-03-16,M,Chiclayo,VIP,2018-08-13
+C100767,Roxana Maria Rojas Campos,1995-08-09,F,Puno,Joven,2022-09-29
+C100768,Santiago Javier Torres Diaz,1987-01-02,M,Arequipa,Premium,2019-09-15
+C100769,Tatiana Sofia Castillo Vargas,1993-05-25,F,Lima,Estándar,2020-10-01
+C100770,NULL,NULL,N/A,Lima,NULL,NULL
+C100771,Ulises Manuel Flores Huaman,1986-10-18,M,Trujillo,VIP,2017-09-04
+C100772,Valeria Carolina Paredes Cruz,1992-03-11,F,Cusco,Premium,2019-10-20
+C100773,Wilson Alberto Vega Romero,1985-08-04,M,Lima,Estándar,2020-09-06
+C100774,Ximena Patricia Morales Gutierrez,1991-12-27,F,Chiclayo,Premium,2019-08-22
+C100775,Yolanda Rosa Chavez Silva,1984-05-20,F,Puno,VIP,2018-07-08
+C100776,Zandy Fernando Campos Torres,1990-10-13,M,Arequipa,Estándar,2020-10-24
+C100777,xxxxxx,,,lima,basico,
+C100778,Andrea Beatriz Diaz Fernandez,1988-03-06,F,Lima,Premium,2019-09-10
+C100779,Bruno Enrique Martinez Ramos,1995-07-29,M,Trujillo,Joven,2021-12-26
+C100780,Camila Isabel Lopez Silva,1987-12-22,F,Cusco,VIP,2017-08-08
+C100781,Daniel Augusto Herrera Paz,1993-05-15,M,Lima,Premium,2019-10-31
+C100782,Elena Sophia Soto Medina,1986-10-08,F,Chiclayo,Estándar,2020-10-17
+C100783,asdasd,2099-12-31,0,Liam,Gold,2030-01-01
+C100784,Felipe Andres Jimenez Torres,1992-03-01,M,Puno,Premium,2019-11-13
+C100785,Gloria Mercedes Navarro Cruz,1985-07-24,F,Arequipa,VIP,2018-08-29
+C100786, Isabel  Cristina   Cordova Ramos ,1991-12-17,F ,Lima,Estándar,2020-10-05
+C100787,Julio Cesar Palacios Diaz,1984-05-10,M,Trujillo,Premium,2019-09-21
+C100788,Karla Vanessa Ortega Flores,1990-10-03,F,Cusco,VIP,2017-07-07
+C100789,Maria2023,1988-02-26,,Lima,medio,
+C100790,Leonardo Fabian Salazar Vega,1995-07-19,M,Chiclayo,Joven,2022-10-05
+C100791,Monica Patricia Benavides Morales,1987-12-12,F,Puno,Premium,2019-09-21
+C100792,Nicolas Alejandro Quintana Herrera,1993-05-05,M,Arequipa,Estándar,2020-10-21
+C100793,Olivia Daniela Carrillo Campos,1986-09-28,F,Lima,Premium,2019-11-07
+C100794,Pablo Andres Espinoza Ruiz,1992-02-21,M,Trujillo,VIP,2018-08-23
+C100795,test,0000-00-00,1,aerquipa,normal,
+C100796,Regina Sofia Aguilar Torres,1985-07-14,F,Cusco,Estándar,2020-09-09
+C100797,Rodrigo Manuel Fernandez Silva,1991-12-07,M,Lima,Premium,2019-10-25
+C100798,Silvia Elena Gutierrez Lopez,1984-04-30,F,Chiclayo,VIP,2017-08-11
+C100799,Tomas Alberto Sandoval Diaz,1990-09-23,M,Puno,Premium,2019-11-27
+C100800,Ursula Maria Romero Chavez,1988-02-16,F,Arequipa,Estándar,2020-10-13
+C100801,NULL,NULL,N/A,Lima,NULL,NULL
+C100802,Victor Hugo Guerrero Paz,1995-07-09,M,Lima,Joven,2021-11-25
+C100803,Wendy Carolina Castro Mendoza,1987-12-02,F,Trujillo,Premium,2019-09-11
+C100804,xavier garcia,1993-04-25,M,Cusco,VIP,2018-07-27
+C100805,Yessica Isabel Herrera Silva,1986-09-18,F,Lima,Estándar,2020-10-03
+C100806,Zacarias Fernando Vargas Torres,1992-02-11,M,Chiclayo,Premium,2019-10-19
+C100807,  Ana Maria Reyes Flores  ,1985-07-04,,Puno,Estándar,2021-01-25
+C100808,Benjamin Enrique Paredes Diaz,1991-11-27,M,Arequipa,VIP,2017-09-13
+C100809,Cecilia Rosa Solis Ramos,1984-04-20,F,Lima,Premium,2019-10-29
+C100810,zzz,1900-01-01,X,Liam,N/A,
+C100811,Dante Augusto Delgado Cruz,1990-09-13,M,Trujillo,Premium,2019-09-15
+C100812,Esmeralda Sofia Vega Morales,1988-02-06,F,Cusco,Estándar,2020-10-01
+C100813,Fabricio Daniel Montalvo Herrera,1995-06-29,M,Lima,Joven,2022-11-17
+C100814,Gabriela Melissa Caceres Torres,1987-11-22,F,Chiclayo,Premium,2019-10-08
+C100815,Humberto Luis Mendoza Silva,1993-04-15,M,Puno,VIP,2018-08-24
+C100816,Ingrid Carolina Quispe Ramos,1986-09-08,F,Arequipa,Estándar,2020-09-10
+C100817,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100818,Javier Alonso Diaz Fernandez,1992-02-01,M,Lima,Premium,2019-10-17
+C100819,Karina Vanessa Lopez Silva,1985-06-24,F,Trujillo,VIP,2017-08-03
+C100820,Luis Fernando Rojas Campos,1991-11-17,M,Cusco,Premium,2019-09-29
+C100821,Maritza Elena Torres Diaz,1984-04-10,F,Lima,Estándar,2020-10-15
+C100822,MARIA LOPEZ GARCIA,1990-09-03,F,Chiclayo,Premium,2019-11-01
+C100823,test123,2099-12-31,0,Trjuillo,Gold,2030-01-01
+C100824,Nelson David Castillo Vargas,1988-01-26,M,Puno,VIP,2018-08-12
+C100825,Ofelia Isabel Flores Huaman,1995-06-19,F,Arequipa,Joven,2021-10-28
+C100826,Pedro Antonio Paredes Cruz,1987-11-12,M,Lima,Premium,2019-09-14
+C100827,Roxana Maria Vega Romero,1993-04-05,F,Trujillo,Estándar,2020-10-30
+C100828,Santiago Javier Morales Gutierrez,1986-08-28,M,Cusco,VIP,2017-09-15
+C100829,Tatiana Sofia Chavez Silva,1992-01-21,F,Lima,Premium,2019-10-01
+C100830,NULL,NULL,N/A,Lima,NULL,NULL
+C100831,Ulises Manuel Campos Torres,1985-06-14,M,Chiclayo,Estándar,2020-09-17
+C100832,Valeria Carolina Diaz Fernandez,1991-11-07,F,Puno,Premium,2019-09-03
+C100833,Wilson Alberto Martinez Ramos,1984-03-30,M,Arequipa,VIP,2018-07-19
+C100834,Ximena Patricia Lopez Silva,1990-08-23,F,Lima,Estándar,2020-10-05
+C100835,Yolanda Rosa Herrera Paz,1988-01-16,F,Trujillo,Premium,2019-10-21
+C100836,Zandy Fernando Soto Medina,1995-06-09,M,Cusco,Joven,2022-09-07
+C100837,xxxxxx,,,lima,basico,
+C100838,Andrea Beatriz Jimenez Torres,1987-11-02,F,Lima,VIP,2017-08-23
+C100839,Bruno Enrique Navarro Cruz,1993-03-25,M,Chiclayo,Premium,2019-10-09
+C100840,Camila Isabel Cordova Ramos,1986-08-18,F,Puno,Estándar,2020-09-25
+C100841,Daniel Augusto Palacios Diaz,1992-01-11,M,Arequipa,Premium,2019-11-11
+C100842,Elena Sophia Ortega Flores,1985-06-04,F,Lima,VIP,2018-08-27
+C100843,asdasd,1900-01-01,X,Liam,N/A,
+C100844,Felipe Andres Salazar Vega,1991-10-27,M,Trujillo,Premium,2019-09-13
+C100845,Gloria Mercedes Benavides Morales,1984-03-20,F,Cusco,Estándar,2020-10-29
+C100846, Isabel  Cristina   Quintana Herrera ,1990-08-13,F ,Lima,Premium,2019-11-15
+C100847,Julio Cesar Carrillo Campos,1988-01-06,M,Chiclayo,VIP,2017-09-01
+C100848,Karla Vanessa Espinoza Ruiz,1995-05-29,F,Puno,Joven,2021-12-17
+C100849,Maria2023,1987-10-22,,Arequipa,medio,
+C100850,Leonardo Fabian Aguilar Torres,1993-03-15,M,Lima,Premium,2019-10-31
+C100851,Monica Patricia Fernandez Silva,1986-08-08,F,Trujillo,VIP,2018-08-17
+C100852,Nicolas Alejandro Gutierrez Lopez,1992-12-01,M,Cusco,Estándar,2020-10-03
+C100853,Olivia Daniela Sandoval Diaz,1985-05-24,F,Lima,Premium,2019-09-19
+C100854,Pablo Andres Romero Chavez,1991-10-17,M,Chiclayo,VIP,2017-08-05
+C100855,test,0000-00-00,1,aerquipa,normal,
+C100856,Regina Sofia Guerrero Paz,1984-03-10,F,Puno,Estándar,2020-09-21
+C100857,Rodrigo Manuel Castro Mendoza,1990-08-03,M,Arequipa,Premium,2019-11-07
+C100858,Silvia Elena Herrera Silva,1988-12-26,F,Lima,VIP,2018-08-23
+C100859,Tomas Alberto Vargas Torres,1995-05-19,M,Trujillo,Joven,2021-10-09
+C100860,Ursula Maria Reyes Flores,1987-10-12,F,Cusco,Premium,2019-09-25
+C100861,NULL,NULL,N/A,Lima,NULL,NULL
+C100862,Victor Hugo Paredes Diaz,1993-03-05,M,Lima,Estándar,2020-10-11
+C100863,Wendy Carolina Solis Ramos,1986-07-28,F,Chiclayo,Premium,2019-10-27
+C100864,xavier garcia,1992-12-21,M,Puno,VIP,2018-07-13
+C100865,Yessica Isabel Delgado Cruz,1985-05-14,F,Arequipa,Estándar,2020-09-29
+C100866,Zacarias Fernando Vega Morales,1991-10-07,M,Lima,Premium,2019-08-15
+C100867,  Ana Maria Montalvo Herrera  ,1984-02-29,,Trujillo,Estándar,2021-01-26
+C100868,Benjamin Enrique Caceres Torres,1990-07-23,M,Cusco,VIP,2017-09-09
+C100869,Cecilia Rosa Mendoza Silva,1988-12-16,F,Lima,Premium,2019-10-25
+C100870,zzz,2099-12-31,0,Liam,Gold,2030-01-01
+C100871,Dante Augusto Quispe Ramos,1995-05-09,M,Chiclayo,Joven,2022-11-25
+C100872,Esmeralda Sofia Diaz Fernandez,1987-10-02,F,Puno,Premium,2019-09-11
+C100873,Fabricio Daniel Lopez Silva,1993-02-25,M,Arequipa,Estándar,2020-10-27
+C100874,Gabriela Melissa Rojas Campos,1986-07-18,F,Lima,Premium,2019-11-13
+C100875,Humberto Luis Torres Diaz,1992-12-11,M,Trujillo,VIP,2018-08-29
+C100876,Ingrid Carolina Castillo Vargas,1985-05-04,F,Cusco,Estándar,2020-09-15
+C100877,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100878,Javier Alonso Flores Huaman,1991-09-27,M,Lima,Premium,2019-10-13
+C100879,Karina Vanessa Paredes Cruz,1984-02-20,F,Chiclayo,VIP,2017-08-29
+C100880,Luis Fernando Vega Romero,1990-07-13,M,Puno,Estándar,2020-10-29
+C100881,Maritza Elena Morales Gutierrez,1988-12-06,F,Arequipa,Premium,2019-09-15
+C100882,MARIA LOPEZ GARCIA,1995-04-29,F,Lima,Joven,2021-11-11
+C100883,test123,1900-01-01,X,Trjuillo,N/A,
+C100884,Nelson David Chavez Silva,1987-09-22,M,Trujillo,Premium,2019-10-08
+C100885,Ofelia Isabel Campos Torres,1993-02-15,F,Cusco,VIP,2018-08-24
+C100886,Pedro Antonio Diaz Fernandez,1986-07-08,M,Lima,Estándar,2020-09-10
+C100887,Roxana Maria Martinez Ramos,1992-12-01,F,Chiclayo,Premium,2019-11-26
+C100888,Santiago Javier Lopez Silva,1985-04-24,M,Puno,VIP,2017-09-12
+C100889,Tatiana Sofia Herrera Paz,1991-09-17,F,Arequipa,Premium,2019-09-28
+C100890,NULL,NULL,N/A,Lima,NULL,NULL
+C100891,Ulises Manuel Soto Medina,1984-02-10,M,Lima,Estándar,2020-10-14
+C100892,Valeria Carolina Jimenez Torres,1990-07-03,F,Trujillo,Premium,2019-10-30
+C100893,Wilson Alberto Navarro Cruz,1988-11-26,M,Cusco,VIP,2018-08-16
+C100894,Ximena Patricia Cordova Ramos,1995-04-19,F,Lima,Joven,2022-10-02
+C100895,Yolanda Rosa Palacios Diaz,1987-09-12,F,Chiclayo,Premium,2019-09-18
+C100896,Zandy Fernando Ortega Flores,1993-02-05,M,Puno,Estándar,2020-10-04
+C100897,xxxxxx,,,lima,basico,
+C100898,Andrea Beatriz Salazar Vega,1986-06-28,F,Arequipa,VIP,2018-07-14
+C100899,Bruno Enrique Benavides Morales,1992-11-21,M,Lima,Premium,2019-10-07
+C100900,Camila Isabel Quintana Herrera,1985-04-14,F,Trujillo,Estándar,2020-09-23
+C100901,Daniel Augusto Carrillo Campos,1991-09-07,M,Cusco,Premium,2019-11-09
+C100902,Elena Sophia Espinoza Ruiz,1984-01-30,F,Lima,VIP,2017-08-25
+C100903,asdasd,2099-12-31,0,Liam,Gold,2030-01-01
+C100904,Felipe Andres Aguilar Torres,1990-06-23,M,Chiclayo,Estándar,2020-10-09
+C100905,Gloria Mercedes Fernandez Silva,1988-11-16,F,Puno,Premium,2019-09-25
+C100906, Isabel  Cristina   Gutierrez Lopez ,1995-04-09,F ,Arequipa,Joven,2021-12-11
+C100907,Julio Cesar Sandoval Diaz,1987-09-02,M,Lima,VIP,2018-08-27
+C100908,Karla Vanessa Romero Chavez,1993-01-25,F,Trujillo,Premium,2019-10-13
+C100909,Maria2023,1986-06-18,,Cusco,medio,
+C100910,Leonardo Fabian Guerrero Paz,1992-11-11,M,Lima,Estándar,2020-09-29
+C100911,Monica Patricia Castro Mendoza,1985-04-04,F,Chiclayo,VIP,2017-09-15
+C100912,Nicolas Alejandro Herrera Silva,1991-08-27,M,Puno,Premium,2019-10-01
+C100913,Olivia Daniela Vargas Torres,1984-01-20,F,Arequipa,Estándar,2020-10-17
+C100914,Pablo Andres Reyes Flores,1990-06-13,M,Lima,Premium,2019-11-03
+C100915,test,0000-00-00,1,aerquipa,normal,
+C100916,Regina Sofia Paredes Diaz,1988-11-06,F,Trujillo,VIP,2018-08-19
+C100917,Rodrigo Manuel Solis Ramos,1995-03-29,M,Cusco,Joven,2021-10-05
+C100918,Silvia Elena Delgado Cruz,1987-08-22,F,Lima,Premium,2019-09-21
+C100919,Tomas Alberto Vega Morales,1993-01-15,M,Chiclayo,Estándar,2020-10-07
+C100920,Ursula Maria Montalvo Herrera,1986-06-08,F,Puno,Premium,2019-11-23
+C100921,NULL,NULL,N/A,Lima,NULL,NULL
+C100922,Victor Hugo Caceres Torres,1992-11-01,M,Arequipa,VIP,2018-08-07
+C100923,Wendy Carolina Mendoza Silva,1985-03-24,F,Lima,Estándar,2020-09-23
+C100924,xavier garcia,1991-08-17,M,Trujillo,Premium,2019-10-09
+C100925,Yessica Isabel Quispe Ramos,1984-12-10,F,Cusco,VIP,2017-09-25
+C100926,Zacarias Fernando Diaz Fernandez,1990-05-03,M,Lima,Estándar,2020-10-11
+C100927,  Ana Maria Lopez Silva  ,1988-09-26,,Chiclayo,Estándar,2021-01-27
+C100928,Benjamin Enrique Rojas Campos,1995-02-19,M,Puno,Joven,2022-11-13
+C100929,Cecilia Rosa Torres Diaz,1987-07-12,F,Arequipa,Premium,2019-09-29
+C100930,zzz,1900-01-01,X,Liam,N/A,
+C100931,Dante Augusto Castillo Vargas,1993-12-05,M,Lima,Premium,2019-10-15
+C100932,Esmeralda Sofia Flores Huaman,1986-04-28,F,Trujillo,VIP,2018-08-01
+C100933,Fabricio Daniel Paredes Cruz,1992-09-21,M,Cusco,Estándar,2020-10-17
+C100934,Gabriela Melissa Vega Romero,1985-02-14,F,Lima,Premium,2019-11-03
+C100935,Humberto Luis Morales Gutierrez,1991-07-07,M,Chiclayo,VIP,2017-09-19
+C100936,Ingrid Carolina Chavez Silva,1984-11-30,F,Puno,Estándar,2020-09-05
+C100937,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100938,Javier Alonso Campos Torres,1990-04-23,M,Arequipa,Premium,2019-10-21
+C100939,Karina Vanessa Diaz Fernandez,1988-09-16,F,Lima,VIP,2018-08-07
+C100940,Luis Fernando Martinez Ramos,1995-02-09,M,Trujillo,Joven,2021-11-23
+C100941,Maritza Elena Lopez Silva,1987-07-02,F,Cusco,Premium,2019-09-09
+C100942,MARIA LOPEZ GARCIA,1993-11-25,F,Lima,Estándar,2020-10-25
+C100943,test123,2099-12-31,0,Trjuillo,Gold,2030-01-01
+C100944,Nelson David Herrera Paz,1986-04-18,M,Chiclayo,VIP,2017-08-04
+C100945,Ofelia Isabel Soto Medina,1992-09-11,F,Puno,Premium,2019-10-20
+C100946,Pedro Antonio Jimenez Torres,1985-02-04,M,Arequipa,Estándar,2020-09-06
+C100947,Roxana Maria Navarro Cruz,1991-06-27,F,Lima,Premium,2019-11-22
+C100948,Santiago Javier Cordova Ramos,1984-11-20,M,Trujillo,VIP,2018-08-08
+C100949,Tatiana Sofia Palacios Diaz,1990-04-13,F,Cusco,Premium,2019-10-24
+C100950,NULL,NULL,N/A,Lima,NULL,NULL
+C100951,Ulises Manuel Ortega Flores,1988-09-06,M,Lima,Estándar,2020-10-10
+C100952,Valeria Carolina Salazar Vega,1995-01-29,F,Chiclayo,Joven,2022-09-26
+C100953,Wilson Alberto Benavides Morales,1987-06-22,M,Puno,Premium,2019-09-12
+C100954,Ximena Patricia Quintana Herrera,1993-11-15,F,Arequipa,VIP,2018-07-28
+C100955,Yolanda Rosa Carrillo Campos,1986-04-08,F,Lima,Estándar,2020-09-14
+C100956,Zandy Fernando Espinoza Ruiz,1992-09-01,M,Trujillo,Premium,2019-10-30
+C100957,xxxxxx,,,lima,basico,
+C100958,Andrea Beatriz Aguilar Torres,1985-01-24,F,Cusco,VIP,2017-09-16
+C100959,Bruno Enrique Fernandez Silva,1991-06-17,M,Lima,Premium,2019-09-02
+C100960,Camila Isabel Gutierrez Lopez,1984-11-10,F,Chiclayo,Estándar,2020-10-18
+C100961,Daniel Augusto Sandoval Diaz,1990-04-03,M,Puno,Premium,2019-11-04
+C100962,Elena Sophia Romero Chavez,1988-08-26,F,Arequipa,VIP,2018-08-20
+C100963,asdasd,1900-01-01,X,Liam,N/A,
+C100964,Felipe Andres Guerrero Paz,1995-01-19,M,Lima,Joven,2021-12-05
+C100965,Gloria Mercedes Castro Mendoza,1987-06-12,F,Trujillo,Premium,2019-09-18
+C100966, Isabel  Cristina   Herrera Silva ,1993-11-05,F ,Cusco,Estándar,2020-10-04
+C100967,Julio Cesar Vargas Torres,1986-03-28,M,Lima,VIP,2017-08-14
+C100968,Karla Vanessa Reyes Flores,1992-08-21,F,Chiclayo,Premium,2019-10-30
+C100969,Maria2023,1985-01-14,,Puno,medio,
+C100970,Leonardo Fabian Paredes Diaz,1991-06-07,M,Arequipa,Estándar,2020-09-23
+C100971,Monica Patricia Solis Ramos,1984-10-30,F,Lima,VIP,2018-08-09
+C100972,Nicolas Alejandro Delgado Cruz,1990-03-23,M,Trujillo,Premium,2019-10-15
+C100973,Olivia Daniela Vega Morales,1988-08-16,F,Cusco,Estándar,2020-10-01
+C100974,Pablo Andres Montalvo Herrera,1995-01-09,M,Lima,Joven,2022-11-17
+C100975,test,0000-00-00,1,aerquipa,normal,
+C100976,Regina Sofia Caceres Torres,1987-06-02,F,Chiclayo,Premium,2019-09-18
+C100977,Rodrigo Manuel Mendoza Silva,1993-10-25,M,Puno,VIP,2018-07-04
+C100978,Silvia Elena Quispe Ramos,1986-03-18,F,Arequipa,Estándar,2020-09-20
+C100979,Tomas Alberto Diaz Fernandez,1992-08-11,M,Lima,Premium,2019-11-06
+C100980,Ursula Maria Lopez Silva,1985-01-04,F,Trujillo,VIP,2017-09-22
+C100981,NULL,NULL,N/A,Lima,NULL,NULL
+C100982,Victor Hugo Rojas Campos,1991-05-27,M,Cusco,Premium,2019-09-08
+C100983,Wendy Carolina Torres Diaz,1984-10-20,F,Lima,Estándar,2020-10-24
+C100984,xavier garcia,1990-03-13,M,Chiclayo,Premium,2019-11-10
+C100985,Yessica Isabel Castillo Vargas,1988-08-06,F,Puno,VIP,2018-08-26
+C100986,Zacarias Fernando Flores Huaman,1995-12-29,M,Arequipa,Joven,2022-10-12
+C100987,  Ana Maria Paredes Cruz  ,1987-05-22,,Lima,Estándar,2021-01-28
+C100988,Benjamin Enrique Vega Romero,1993-10-15,M,Trujillo,Premium,2019-09-01
+C100989,Cecilia Rosa Morales Gutierrez,1986-03-08,F,Cusco,VIP,2017-09-17
+C100990,zzz,2099-12-31,0,Liam,Gold,2030-01-01
+C100991,Dante Augusto Chavez Silva,1992-08-01,M,Lima,Premium,2019-10-17
+C100992,Esmeralda Sofia Campos Torres,1985-12-24,F,Chiclayo,Estándar,2020-10-03
+C100993,Fabricio Daniel Diaz Fernandez,1991-05-17,M,Puno,Premium,2019-11-19
+C100994,Gabriela Melissa Martinez Ramos,1984-10-10,F,Arequipa,VIP,2018-08-05
+C100995,Humberto Luis Lopez Silva,1990-03-03,M,Lima,Estándar,2020-09-21
+C100996,Ingrid Carolina Herrera Paz,1988-07-26,F,Trujillo,Premium,2019-10-07
+C100997,asdf,15/03/1990,M ,lima123,alto,2020-01-01
+C100998,Javier Alonso Soto Medina,1995-12-19,M,Cusco,Joven,2021-11-03
+C100999,Karina Vanessa Jimenez Torres,1987-05-12,F,Lima,Premium,2019-09-19
+C101000,Luis Fernando Navarro Cruz,1993-10-05,M,Chiclayo,VIP,2018-07-05
