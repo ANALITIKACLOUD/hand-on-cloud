@@ -18,26 +18,7 @@ Construir un pipeline de datos que procese transacciones bancarias para identifi
 
 ## 🏗️ ARQUITECTURA
 
-```mermaid
-flowchart LR
-    A[Landing S3<br/>CSV crudos] -->|S3 Event| B[Lambda<br/>Orquestador]
-    B -->|StartJobRun| C[Glue Job 1<br/>Landing to RDV]
-    C -->|Parquet limpio| D[RDV S3<br/>Raw Data Value]
-    D --> E[Glue Job 2<br/>RDV to UDV]
-    E -->|Parquet integrado| F[UDV S3<br/>Universal Data Value]
-    F --> G[Glue Job 3<br/>UDV to DDV]
-    G -->|Parquet dimensional| H[DDV S3<br/>Dimensional Data Value]
-    H --> I[Glue Crawler<br/>Scan metadata]
-    I --> J[Data Catalog<br/>Metadata]
-    J --> K[Athena<br/>SQL Queries]
-    K --> L[Analysts]
-    
-    style A fill:#FFE5E5
-    style D fill:#E5F5FF
-    style F fill:#E5FFE5
-    style H fill:#FFE5FF
-    style K fill:#FFF5E5
-```
+![Arquitectura Pipeline Data Analytics](images/hoc-sesion-3-arq.png)
 
 ---
 
