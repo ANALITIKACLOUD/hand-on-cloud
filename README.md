@@ -78,9 +78,9 @@ flowchart LR
 | # | Nombre | Propósito |
 |---|--------|-----------|
 | 1 | `bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]` | Archivos CSV crudos |
-| 2 | `bbva-lakehouse-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]` | Parquet limpio |
-| 3 | `bbva-lakehouse-udv-[PRIMERNOMBRE-APELLIDOPATERNO]` | Parquet integrado |
-| 4 | `bbva-lakehouse-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]` | Parquet dimensional |
+| 2 | `bbva-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]` | Parquet limpio |
+| 3 | `bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]` | Parquet integrado |
+| 4 | `bbva-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]` | Parquet dimensional |
 
 **Configuración (para los 4):**
 ```
@@ -155,7 +155,7 @@ Role name: GlueServiceRole-BBVA
       ],
       "Resource": [
         "arn:aws:s3:::bbva-landing-*/*",
-        "arn:aws:s3:::bbva-lakehouse-*/*"
+        "arn:aws:s3:::bbva-*/*"
       ]
     },
     {
@@ -163,7 +163,7 @@ Role name: GlueServiceRole-BBVA
       "Action": "s3:ListBucket",
       "Resource": [
         "arn:aws:s3:::bbva-landing-*",
-        "arn:aws:s3:::bbva-lakehouse-*"
+        "arn:aws:s3:::bbva-*"
       ]
     }
   ]
@@ -222,8 +222,8 @@ Number of workers: 2
 **Job parameters (agregar):**
 ```
 --SOURCE_BUCKET = bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]
---TARGET_BUCKET = bbva-lakehouse-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
---TempDir = s3://bbva-lakehouse-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]/temp/
+--TARGET_BUCKET = bbva-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
+--TempDir = s3://bbva-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]/temp/
 ```
 
 ---
@@ -273,7 +273,7 @@ Ver: Logs tab
 
 ### Abrir S3
 ```
-Bucket: bbva-lakehouse-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
+Bucket: bbva-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
 ```
 
 ### Estructura esperada
@@ -368,9 +368,9 @@ Glue version: 4.0
 
 ### Parameters
 ```
---SOURCE_BUCKET = bbva-lakehouse-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
---TARGET_BUCKET = bbva-lakehouse-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
---TempDir = s3://bbva-lakehouse-udv-[PRIMERNOMBRE-APELLIDOPATERNO]/temp/
+--SOURCE_BUCKET = bbva-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
+--TARGET_BUCKET = bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
+--TempDir = s3://bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]/temp/
 ```
 
 ---
@@ -393,7 +393,7 @@ Run → Esperar Succeeded (3-4 min)
 
 ### S3 Output
 ```
-Bucket: bbva-lakehouse-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
+Bucket: bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
 
 Estructura:
 udv/
@@ -485,8 +485,8 @@ flowchart TD
 Name: udv-to-ddv
 IAM Role: GlueServiceRole-BBVA
 Parameters:
-  --SOURCE_BUCKET = bbva-lakehouse-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
-  --TARGET_BUCKET = bbva-lakehouse-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]
+  --SOURCE_BUCKET = bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
+  --TARGET_BUCKET = bbva-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]
 ```
 
 ---
@@ -609,7 +609,7 @@ AWS Glue → Crawlers → Create crawler
 **Data source:**
 ```
 Type: S3
-Path: s3://bbva-lakehouse-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]/
+Path: s3://bbva-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]/
 Subsequent crawler runs: Crawl all folders
 ```
 
@@ -713,7 +713,7 @@ AWS Console → Athena → Query editor
 ### Configurar Results Location
 ```
 Settings → Manage
-Query result location: s3://bbva-lakehouse-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]/athena-results/
+Query result location: s3://bbva-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]/athena-results/
 Save
 ```
 
