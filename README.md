@@ -115,62 +115,33 @@ Descargar:
 
 ---
 
-## PASO 3: Crear IAM Role
+## PASO 3: Usar IAM Role Existente
 
 ```mermaid
 flowchart TD
     A[IAM Console] --> B[Roles]
-    B --> C[Create role]
-    C --> D[AWS Service: Glue]
-    D --> E[Attach policies]
-    E --> F[AWSGlueServiceRole]
-    E --> G[Custom S3 policy]
-    F --> H[Create role]
-    G --> H
+    B --> C[Buscar rol existente]
+    C --> D[GlueServiceRole-BBVA]
+    
+    style D fill:#E5FFE5
 ```
 
-### 3.1 Configuración básica
+### 3.1 Verificar Role
+
+El rol `GlueServiceRole-BBVA` ya está creado y configurado con los permisos necesarios:
+
+- **Política 1:** `AWSGlueServiceRole` (managed)
+- **Política 2:** Custom S3 access (inline) para buckets `bbva-*`
+
+### Asignar Role en Glue Jobs
+
+Cuando crees los Glue Jobs, usa este rol:
+
 ```
-Trusted entity: AWS service
-Use case: Glue
-Role name: GlueServiceRole-BBVA
-```
-
-### 3.2 Políticas (agregar 2)
-
-**Política 1:** `AWSGlueServiceRole` (managed)
-
-**Política 2:** Custom S3 access (inline)
-
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
-        "s3:GetObject",
-        "s3:PutObject",
-        "s3:DeleteObject"
-      ],
-      "Resource": [
-        "arn:aws:s3:::bbva-landing-*/*",
-        "arn:aws:s3:::bbva-*/*"
-      ]
-    },
-    {
-      "Effect": "Allow",
-      "Action": "s3:ListBucket",
-      "Resource": [
-        "arn:aws:s3:::bbva-landing-*",
-        "arn:aws:s3:::bbva-*"
-      ]
-    }
-  ]
-}
+IAM Role: GlueServiceRole-BBVA
 ```
 
-✅ **Verificar:** Role tiene 2 políticas
+✅ **Verificar:** Role existe y está disponible
 
 ---
 
@@ -178,7 +149,7 @@ Role name: GlueServiceRole-BBVA
 
 - [ ] 4 buckets S3 creados
 - [ ] 2 CSVs en `bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]`
-- [ ] IAM Role `GlueServiceRole-BBVA` creado
+- [ ] Verificado que el IAM Role `GlueServiceRole-BBVA` está disponible
 
 ---
 
@@ -232,7 +203,7 @@ Number of workers: 2
 
 ### Descargar script
 ```
-Repo → glue-jobs/01-landing-to-rdv.py
+Repo → sesion-03-data-analytics/glue-jobs/
 ```
 
 ### Copiar al editor de Glue
@@ -370,7 +341,7 @@ Glue version: 4.0
 
 ## PASO 2: Script
 
-Descargar: `glue-jobs/02-rdv-to-udv.py`
+Descargar: `sesion-03-data-analytics/glue-jobs/`
 
 Copiar al editor → Guardar
 
@@ -485,7 +456,7 @@ Parameters:
 
 ## PASO 2: Script
 
-Descargar: `glue-jobs/03-udv-to-ddv.py`
+Descargar: `sesion-03-data-analytics/glue-jobs/`
 
 ---
 
