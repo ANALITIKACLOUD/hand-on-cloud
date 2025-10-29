@@ -190,12 +190,26 @@ Worker type: G.1X
 Number of workers: 2
 ```
 
-**Job parameters (agregar):**
+### 1.3 Job Parameters
+
+En la sección **"Job parameters"** (expandir si está colapsada), agregar los siguientes parámetros uno por uno:
+
+**Job parameters (agregar en la sección "Job parameters"):**
 ```
---SOURCE_BUCKET = bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]
---TARGET_BUCKET = bbva-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
---TempDir = s3://bbva-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]/temp/
+--JOB_NAME = bbva-etl-transacciones-rdv
+--AWS_REGION = us-east-2
+--S3_INPUT = s3://bbva-landing-[PRIMERNOMBRE-APELLIDOPATERNO]/maestra_clientes.csv
+--S3_OUTPUT_BASE = s3://bbva-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]/data/
+--FECHA_RUTINA = 2025-10-22
+--FILE_NAME = maestra_clientes.csv
+--CRAWLER_NAME = crw_rdv
+--DATABASE_RDV = banca_rdv
+--UDV_JOB_NAME = bbva-etl-transacciones-udv
+--UDV_S3_OUTPUT_BASE = s3://bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]/data/
+--UDV_CRAWLER_NAME = crw_udv
 ```
+
+> 💡 **Nota:** Reemplaza `[PRIMERNOMBRE-APELLIDOPATERNO]` con tus iniciales y ajusta `FECHA_RUTINA` según corresponda. Si procesas `clientes_transacciones.csv`, cambia `--S3_INPUT` y `--FILE_NAME` según corresponda.
 
 ---
 
@@ -330,12 +344,22 @@ Type: Spark
 Glue version: 4.0
 ```
 
-### Parameters
+### Job Parameters
+
+En la sección **"Job parameters"** (expandir si está colapsada), agregar los siguientes parámetros uno por uno:
+
+**Job parameters (agregar en la sección "Job parameters"):**
 ```
---SOURCE_BUCKET = bbva-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]
---TARGET_BUCKET = bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
---TempDir = s3://bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]/temp/
+--JOB_NAME = bbva-etl-transacciones-udv
+--AWS_REGION = us-east-2
+--DATABASE_RDV = banca_rdv
+--TABLE_NAME = clientes_transacciones
+--FECHA_RUTINA = 2025-10-23
+--S3_OUTPUT_BASE = s3://bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]/data/
+--CRAWLER_NAME_UDV = crw_udv
 ```
+
+> 💡 **Nota:** Reemplaza `[PRIMERNOMBRE-APELLIDOPATERNO]` con tus iniciales y ajusta `FECHA_RUTINA` según corresponda.
 
 ---
 
@@ -444,13 +468,28 @@ flowchart TD
 
 ## PASO 1: Crear Job
 
+### Configuración
 ```
 Name: udv-to-ddv
 IAM Role: GlueServiceRole-BBVA
-Parameters:
-  --SOURCE_BUCKET = bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
-  --TARGET_BUCKET = bbva-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]
+Type: Spark
+Glue version: 4.0
 ```
+
+### Job Parameters
+
+En la sección **"Job parameters"** (expandir si está colapsada), agregar los siguientes parámetros uno por uno:
+
+**Job parameters (agregar en la sección "Job parameters"):**
+```
+--JOB_NAME = udv-to-ddv
+--AWS_REGION = us-east-2
+--SOURCE_BUCKET = bbva-udv-[PRIMERNOMBRE-APELLIDOPATERNO]
+--TARGET_BUCKET = bbva-ddv-[PRIMERNOMBRE-APELLIDOPATERNO]
+--FECHA_RUTINA = 2025-10-23
+```
+
+> 💡 **Nota:** Reemplaza `[PRIMERNOMBRE-APELLIDOPATERNO]` con tus iniciales y ajusta `FECHA_RUTINA` según corresponda.
 
 ---
 
@@ -868,19 +907,16 @@ WHERE fecha_rutina = '2024-12-15';
 # LAB 7: Lambda Orquestador (15 min)
 
 ## Objetivo
-Ejecutar los 3 Glue Jobs secuencialmente con Lambda
+Ejecutar Glue Jobs automáticamente cuando se suben archivos CSV a S3
 
 ```mermaid
 flowchart TD
     A[CSV subido a S3] -->|S3 Event| B[Lambda]
-    B -->|StartJobRun| C[Job 1: Landing to RDV]
-    C -->|Succeeded| D[Job 2: RDV to UDV]
-    D -->|Succeeded| E[Job 3: UDV to DDV]
-    E -->|Succeeded| F[Crawler]
-    F --> G[Data Catalog updated]
+    B -->|StartJobRun| C[Glue Job<br/>configurado]
+    C --> D[Output en S3]
     
     style B fill:#FFA500
-    style G fill:#E5F5FF
+    style D fill:#E5F5FF
 ```
 
 ---
@@ -901,45 +937,38 @@ Architecture: x86_64
 
 ### IAM Role
 ```
-Execution role: Create new role
-Role name: LambdaGlueOrchestratorRole
+Execution role: Use an existing role
+Existing role: lambda-bbva-etl-role
 ```
+
+> ⚠️ El rol `lambda-bbva-etl-role` ya está creado con los permisos necesarios para ejecutar Glue Jobs
 
 ---
 
 ## PASO 2: Script Python
 
-Descargar: `lambda/orquestador.py`
-
-Copiar al editor Lambda → Deploy
-
----
-
-## PASO 3: Agregar Permisos
-
-### IAM Policy para Lambda
-
+### Descargar código
 ```
-IAM → Roles → LambdaGlueOrchestratorRole
-Add permissions → Create inline policy
+Repo → sesion-03-data-analytics/lambda/lambda_function.py
 ```
 
-**JSON:**
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
-        "glue:StartJobRun",
-        "glue:GetJobRun"
-      ],
-      "Resource": "*"
-    }
-  ]
-}
+### Copiar al editor Lambda
+1. Abrir el archivo `lambda_function.py`
+2. Copiar todo el contenido
+3. Pegar en el editor de código de Lambda
+4. Click "Deploy"
+
+### Variables de Entorno (opcional)
+Puedes configurar variables de entorno en la configuración del Lambda:
+
 ```
+GLUE_JOB_NAME = bbva-etl-transacciones-rdv
+S3_OUTPUT_BASE = s3://bbva-rdv-[PRIMERNOMBRE-APELLIDOPATERNO]/data/
+CRAWLER_NAME = crw_rdv_clientes_transacciones
+GLUE_REGION = us-east-2
+```
+
+> 💡 Si no configuras variables de entorno, el Lambda usará valores por defecto
 
 ---
 
@@ -991,10 +1020,12 @@ CloudWatch Logs → Log groups
 
 **Buscar en logs:**
 ```
-✅ Starting Job: landing-to-rdv
-✅ Starting Job: rdv-to-udv
-✅ Starting Job: udv-to-ddv
-✅ Pipeline completed successfully
+🔧 Configuration:
+   Job Name: bbva-etl-transacciones-rdv
+   Output: s3://bbva-rdv-.../data/...
+📋 Job Arguments: {...}
+Glue Job started successfully!
+Job Run ID: jr_xxxxx
 ```
 
 ---
