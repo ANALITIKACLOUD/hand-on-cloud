@@ -1,4 +1,4 @@
-# TALLER BBVA - SESIÓN 3
+# TALLER UTEC-BBVA - SESIÓN 3
 ## Data & Analytics: AWS Glue + Athena
 
 **Duración:** 3 horas  
