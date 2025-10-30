@@ -1153,8 +1153,8 @@ https://github.com/ANALITIKACLOUD/hands-on-cloud
 ```
 
 ### Contacto:
-- Instructor: [TU CONTACTO]
-- Soporte: [EMAIL]
+- Instructor: Jose Alegre Argomedo
+- Soporte: jose.alegre@analitika.cloud
 
 ---
 
